@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aurel\\Desktop\\uploadGitAmbre\\greg\\Biblioteque\\Biblioteque.csproj": {}
+    "C:\\Users\\aurel\\Source\\Repos\\Biblio.Net\\Biblioteque\\Biblioteque.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aurel\\Desktop\\uploadGitAmbre\\greg\\Biblioteque\\Biblioteque.csproj": {
+    "C:\\Users\\aurel\\Source\\Repos\\Biblio.Net\\Biblioteque\\Biblioteque.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aurel\\Desktop\\uploadGitAmbre\\greg\\Biblioteque\\Biblioteque.csproj",
+        "projectUniqueName": "C:\\Users\\aurel\\Source\\Repos\\Biblio.Net\\Biblioteque\\Biblioteque.csproj",
         "projectName": "Biblioteque",
-        "projectPath": "C:\\Users\\aurel\\Desktop\\uploadGitAmbre\\greg\\Biblioteque\\Biblioteque.csproj",
+        "projectPath": "C:\\Users\\aurel\\Source\\Repos\\Biblio.Net\\Biblioteque\\Biblioteque.csproj",
         "packagesPath": "C:\\Users\\aurel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aurel\\Desktop\\uploadGitAmbre\\greg\\Biblioteque\\obj\\",
+        "outputPath": "C:\\Users\\aurel\\Source\\Repos\\Biblio.Net\\Biblioteque\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
