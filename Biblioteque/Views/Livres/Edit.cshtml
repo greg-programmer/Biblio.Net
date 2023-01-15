@@ -1,0 +1,79 @@
+﻿@model Biblioteque.Models.ViewModel
+
+@{
+    ViewData["Title"] = "Edit";    
+}
+
+<h1>Edit</h1>
+<h4>Livre</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit" enctype="multipart/form-data">
+             <div class="form-group">
+                <label asp-for="LivreViewM_Nolist.Titre" class="control-label"></label>
+                <input asp-for="LivreViewM_Nolist.Titre" class="form-control" />
+                <span asp-validation-for="LivreViewM_Nolist.Titre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AuteurViewM_Nolist.Nom" class="control-label"></label>
+                <input asp-for="AuteurViewM_Nolist.Nom" class="form-control" />
+                <span asp-validation-for="AuteurViewM_Nolist.Nom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="LivreViewM_Nolist.Date_Parution" class="control-label"></label>
+                <input asp-for="LivreViewM_Nolist.Date_Parution" class="form-control" />
+                <span asp-validation-for="LivreViewM_Nolist.Date_Parution" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AuteurViewM_Nolist.Prenom" class="control-label"></label>
+                <input asp-for="AuteurViewM_Nolist.Prenom" class="form-control" />
+                <span asp-validation-for="AuteurViewM_Nolist.Prenom" class="text-danger"></span>
+        
+            </div>
+            <div class="form-group">
+                <label asp-for="LivreViewM_Nolist.Synopsis" class="control-label"></label>
+                <input type="text-area" asp-for="LivreViewM_Nolist.Synopsis" class="form-control" />
+                <span asp-validation-for="LivreViewM_Nolist.Synopsis" class="text-danger"></span>
+            </div>
+
+       
+            <div class="form-group">
+                <label>Image de couverture</label>
+                <img class="img-fluid" src="~/Upload/@Model.LivreViewM_Nolist.CheminImage"alt="Couverture de Livres" height="100px" />
+                <div class="parent-div">
+                    <button class="btn-upload">Modifier</button>
+                    <input asp-for="LivreViewM_Nolist.Image" class="form-control" />
+                    <span asp-validation-for="LivreViewM_Nolist.Image" class="text-danger"></span>
+                </div>  
+                @if (Model.LivreViewM_Nolist.CheminImage != "not_Cover.jpg")
+                {
+                    <button class="btn-upload" asp-action="DeleteImageConfirmed">Confirmer?</button>
+                }               
+            </div>         
+            <div class="form-group">
+                <label asp-for="GenreViewM_Nolist.Nom" class="control-label"></label>
+                <input asp-for="GenreViewM_Nolist.Nom" class="form-control" />
+                <span asp-validation-for="GenreViewM_Nolist.Nom" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="checkbox" asp-for="LivreViewM_Nolist.CoupDeCoeur" name="Heart">
+                <label class="col-form-label">Coup de coeur</label>
+                <span asp-validation-for="LivreViewM_Nolist.CoupDeCoeur" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                 <input type="hidden" asp-for="LivreViewM_Nolist.Id" name="id" />
+                <input type="hidden" asp-for="LivreViewM_Nolist.CheminImage" name="ImagePath"/>
+                <input type="submit" value="Edit" class="btn btn-primary" />
+            </div>            
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div> 
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

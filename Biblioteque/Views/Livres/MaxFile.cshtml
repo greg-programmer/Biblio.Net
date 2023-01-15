@@ -1,0 +1,21 @@
+﻿@model Biblioteque.Models.Livre
+
+@{
+    ViewData["Title"] = "MaxFile";
+}
+
+<div class="row">
+    <div class="col-12">
+        <img class="col-xl-3 col-lg-4 col-md-5 col-sm-6 col-6 m-auto" width="80%" src="~/Upload/smiley.jpg" alt="Couverture de Livres" />
+        <h2 class="p_center">La taille du fichier ne doit pas dépasser 1Mo!</h2>
+        <div class="Container_Form">           
+            <form asp-action="Index" enctype="multipart/form-data">  
+                <input type="hidden" asp-for="Id" />
+                <input type="submit" value="Retour" class="btn btn-dark"/>
+            </form>
+        </div>
+        <div class="Container_Form"></div>
+        <div class="Container_Form"></div>
+        <div></div>
+    </div>
+</div>

@@ -1,0 +1,70 @@
+﻿@model Biblioteque.Models.ViewModel
+
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Book-In</h1>
+
+<h4>Ajouter un livre</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create" enctype="multipart/form-data">
+           
+                <div class="form-group">
+                    <label asp-for="LivreViewM_Nolist.Titre" class="control-label"></label>
+                <input asp-for="LivreViewM_Nolist.Titre" class="form-control" />
+                <span asp-validation-for="LivreViewM_Nolist.Titre" class="text-danger"></span>
+                </div>
+            <div class="form-group">
+                <label asp-for="AuteurViewM_Nolist.Nom" class="control-label"></label>
+                <input asp-for="AuteurViewM_Nolist.Nom" class="form-control" />
+                <span asp-validation-for="AuteurViewM_Nolist.Nom" class="text-danger"></span>
+            </div>
+                <div class="form-group">
+                    <label asp-for="LivreViewM_Nolist.Date_Parution" class="control-label"></label>
+                    <input asp-for="LivreViewM_Nolist.Date_Parution" class="form-control" />
+                    <span asp-validation-for="LivreViewM_Nolist.Date_Parution" class="text-danger"></span>
+                </div>
+            <div class="form-group">
+                <label asp-for="AuteurViewM_Nolist.Prenom" class="control-label"></label>
+                <input asp-for="AuteurViewM_Nolist.Prenom" class="form-control" />
+                <span asp-validation-for="AuteurViewM_Nolist.Prenom" class="text-danger"></span>
+            </div>
+                <div class="form-group">
+                    <label asp-for="LivreViewM_Nolist.Synopsis" class="control-label"></label>
+                    <input type="text-area" asp-for="LivreViewM_Nolist.Synopsis" class="form-control"/>
+                    <span asp-validation-for="LivreViewM_Nolist.Synopsis" class="text-danger"></span>
+                </div>
+
+                <div class="form-group">
+                    <label class="col-form-label">Première de couverture</label>
+                <input asp-for="LivreViewM_Nolist.Image" class="form-control"/>
+                    <span asp-validation-for="LivreViewM_Nolist.Image" class="text-danger" ></span>             
+                </div>           
+            <div class="form-group">
+                <label asp-for="GenreViewM_Nolist.Nom" class="control-label"></label>
+                <input asp-for="GenreViewM_Nolist.Nom" class="form-control" />
+                <span asp-validation-for="GenreViewM_Nolist.Nom" class="text-danger"></span>
+            </div>
+                <div class="form-group">                
+                    <input type="checkbox" asp-for="LivreViewM_Nolist.CoupDeCoeur"name="Heart">
+                    <label class ="col-form-label">Coup de coeur</label>
+                <span asp-validation-for="LivreViewM_Nolist.CoupDeCoeur" class="text-danger"></span>
+                </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

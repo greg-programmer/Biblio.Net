@@ -1,0 +1,66 @@
+﻿@model Biblioteque.Models.ViewModel
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Livre</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LivreViewM_Nolist.Titre)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LivreViewM_Nolist.Titre)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LivreViewM_Nolist.Date_Parution)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LivreViewM_Nolist.Date_Parution)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.LivreViewM_Nolist.Synopsis)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.LivreViewM_Nolist.Synopsis)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LivreViewM_Nolist.CoupDeCoeur)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LivreViewM_Nolist.CoupDeCoeur)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LivreViewM_Nolist.CheminImage)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LivreViewM_Nolist.CheminImage)
+        </dd>       
+          <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AuteurViewM_Nolist.Prenom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AuteurViewM_Nolist.Prenom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.AuteurViewM_Nolist.Nom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.AuteurViewM_Nolist.Nom)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.GenreViewM_Nolist.Nom)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.GenreViewM_Nolist.Nom)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-route-id="@Model?.LivreViewM_Nolist.Id">Edit</a> |
+    <a asp-action="Index">Back to List</a>
+</div>
