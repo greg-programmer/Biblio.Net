@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "PufeJHXjOEkYG/9I3HkNO+OQwc/3DdJgsswGTsgmRItYsjEf9E4O/ihO+lM9knk7Qit+6XJBoHQDW0xuE56Hog==",
+  "dgSpecHash": "4VTgUyOgn4eCM6XPNNf7d/PZ19ct3geHT9iqY53jZrptoSYmW/G6QjywD//sdH4f8MbhizCKvGUVYp1hJjBQLg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aurel\\Source\\Repos\\Biblio.Net\\Biblioteque\\Biblioteque.csproj",
+  "projectFilePath": "C:\\Users\\aurel\\Desktop\\aaa\\Biblioteque\\Biblioteque.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aurel\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\aurel\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",

@@ -22,7 +22,7 @@ aside{
 }
 aside > h3 {
     margin-top: 0;
-    background-color: #198754;
+    background-color: rgb(169, 165, 165);
 }
 figure{
     display: flex;    
