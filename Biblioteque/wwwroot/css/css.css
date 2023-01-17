@@ -1,11 +1,16 @@
-html{
-    position: relative;  
+/*--------Variables----------*/
+:root {
+    --Green: green;
+}
+/*---------------------------*/
+html {
+    position: relative;
 }
 li{
     list-style: none;    
 }
-header{
-    background-color: #198754;
+header {
+    background-color : var(--Green);
     text-align: center;
     width: 100%;
     height: auto;
@@ -20,19 +25,21 @@ aside{
     padding: 10px;
     border-radius: 5px;    
 }
-aside > h3 {
-    margin-top: 0;
-    background-color: rgb(169, 165, 165);
-}
+    aside > h3 {
+        margin-top: 0;
+        background-color: var(--Green);
+    }
 figure{
     display: flex;    
 }
+.btn-success{
+    background-color:var(--Green);
+     border:var(--Green);
+}
 footer {
-    
-    background-color:#198754;
+    background-color: var(--Green);
     width: 100%;
     height: auto;
-
 }
 footer > ul{
     display: flex;
