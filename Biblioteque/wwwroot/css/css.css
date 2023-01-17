@@ -3,8 +3,13 @@
     --Green: green;
 }
 /*---------------------------*/
-html {
-    position: relative;
+body {
+    height: 100vh;
+    position : relative;
+    bottom:0px;
+}
+.container{
+    min-height:100%;
 }
 li{
     list-style: none;    
@@ -38,13 +43,13 @@ figure{
 }
 footer {
     background-color: var(--Green);
-    width: 100%;
-    height: auto;
+    width: 100%;    
 }
 footer > ul{
     display: flex;
     justify-content: space-around;    
-    margin: revert;  
+    margin: revert;
+    padding:25px;
 }
 footer > ul > li > a {
     text-decoration: none;

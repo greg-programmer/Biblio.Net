@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "r3FE0kMFRMdI0zQpr/qLKZeehMnFEPa4i4Qxk0bPpJQ=",
+  "Hash": "YOHIkrLdF8aiyLvXpGJt6pKaHzGrq1J+cZfU9cuyd54=",
   "Source": "Biblioteque",
   "BasePath": "_content/Biblioteque",
   "Mode": "Default",
@@ -1341,23 +1341,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Upload\\Game-Development-Patterns-with-Unreal-Engine-5230454284.jpg"
-    },
-    {
-      "Identity": "C:\\Users\\aurel\\Desktop\\testbibli\\Biblioteque\\wwwroot\\Upload\\grosseImage232233443.jpg",
-      "SourceId": "Biblioteque",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\Desktop\\testbibli\\Biblioteque\\wwwroot\\",
-      "BasePath": "_content/Biblioteque",
-      "RelativePath": "Upload/grosseImage232233443.jpg",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\grosseImage232233443.jpg"
     },
     {
       "Identity": "C:\\Users\\aurel\\Desktop\\testbibli\\Biblioteque\\wwwroot\\Upload\\harry233022468.jpg",
