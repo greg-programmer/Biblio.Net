@@ -4,7 +4,6 @@ namespace Biblioteque.Models.User
 {
     public class User : AbstractEntity
     {
-        public int LivreId { get; set; }
         public string FirstName { get; set; }
         public string LastName { get; set; }        
 
@@ -14,6 +13,7 @@ namespace Biblioteque.Models.User
         public string? Email { get; set; } 
         
         public string Password { get; set; }
+        public List<Livre>? Livres { get;}
     }
 }
 
