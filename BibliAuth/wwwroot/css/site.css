@@ -45,3 +45,12 @@ h3 {
     font-size:26px;
     color:black!important;
 }
+.container_img_reservation
+{
+    display:flex;
+    flex-direction:column;
+}
+ul {
+    overflow-wrap: break-word;
+    list-style:none;
+}

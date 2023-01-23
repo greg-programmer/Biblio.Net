@@ -8,65 +8,65 @@ build_property.PlatformNeutralAssembly =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = BibliAuth
 build_property.RootNamespace = BibliAuth
-build_property.ProjectDir = C:\Users\aurel\Desktop\bibliauth00\BibliAuth\BibliAuth\
+build_property.ProjectDir = C:\Users\aurel\Source\Repos\Bidhjshjdhblio.Net\BibliAuth\
 build_property.RazorLangVersion = 6.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\aurel\Desktop\bibliauth00\BibliAuth\BibliAuth
+build_property.MSBuildProjectDirectory = C:\Users\aurel\Source\Repos\Bidhjshjdhblio.Net\BibliAuth
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Areas/Identity/Pages/_ViewStart.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Areas/Identity/Pages/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = QXJlYXNcSWRlbnRpdHlcUGFnZXNcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/Home/Index.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/Home/Privacy.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/Livres/Create.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/Livres/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/Livres/Delete.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/Livres/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/Livres/Details.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/Livres/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/Livres/Edit.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/Livres/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/Livres/Index.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/Livres/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/Shared/Error.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/Shared/_LoginPartial.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/Shared/_LoginPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9Mb2dpblBhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/Shared/_ValidationScriptsPartial.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/_ViewImports.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/_ViewStart.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/aurel/Desktop/bibliauth00/BibliAuth/BibliAuth/Views/Shared/_Layout.cshtml]
+[C:/Users/aurel/Source/Repos/Bidhjshjdhblio.Net/BibliAuth/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-5gi1h66sqg
