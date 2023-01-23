@@ -40,6 +40,11 @@ h3 {
     letter-spacing: 1px;
     font-size: 2em;
 }
+h4 {
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+    font-size: 2em;
+}
 .nav-item > span > i
 {
     font-size:26px;
