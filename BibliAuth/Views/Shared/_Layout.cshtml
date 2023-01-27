@@ -31,11 +31,14 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Demandes de réservations</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Livres" asp-action="Create">Ajouter <i class="fas fa-plus"></i></a>
                             </li>
                         </ul>
                         <form class="d-flex">                           
-                            <input class="form-control me-2" type="search" placeholder="Rechercher un livre..." aria-label="Search">
-                            <button class="btn btn-outline-dark" type="submit"> <i class="fas fa-search"></i></button>
+                            <input class="form-control me-2" name="value" type="search" placeholder="Rechercher un livre..." aria-label="Search" required>
+                            <button class="btn btn-outline-dark" asp-controller="Livres" asp-action="InputSearch"type="submit"> <i class="fas fa-search"></i></button>
                         </form>                       
                         <partial name="_LoginPartial" />
                     </div>
@@ -46,8 +49,7 @@
             @RenderBody()            
         </main>
     </div>
-
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted bg-info h-2">
         <div class="container">
             &copy; 2023 - BibliAuth - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>

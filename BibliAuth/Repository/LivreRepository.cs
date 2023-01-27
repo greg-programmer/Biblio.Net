@@ -17,8 +17,7 @@ namespace BibliAuth.Repository
         public override List<Livre> FindAll()
         {
             return context.Livre
-                .Where(b => b.Id > 17)
-                .OrderByDescending(b => b.Id)
+                .Where(b => b.Id > 0)        
                 .Include("Genres")
                 .Include("Auteurs")
                 .ToList();
@@ -65,7 +64,10 @@ namespace BibliAuth.Repository
             if (path != notCover)
                 File.Delete(pathCombine);
         }
-
+        public void InputSearch(string search, ViewModel view)
+        {
+            Console.WriteLine(view.LivreViewM_Nolist.Titre, search);
+        }
 
         /* public override void Delete(long id)
 {

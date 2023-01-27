@@ -1,0 +1,21 @@
+﻿@model BibliAuth.Models.Livre
+
+@{
+    ViewData["Title"] = "Error404BookNotFound";
+}
+
+<div class="row justify-content-center">
+    <div class="col-xl-6 mt-5">
+        <img class="img-fluid col-xl-4 col-lg-4 col-md-5 col-sm-6 col-6 m-auto" width="80%" src="~/Upload/error.jpg" alt="Couverture de Livres" />
+        <h4 class="p_center">Désolé mais votre livre n'est pas disponible</h4>
+        <div class="Container_Form">
+            <form asp-controller="Home" asp-action="Index" enctype="multipart/form-data">
+                <input type="hidden" asp-for="Id" />
+                <input type="submit" value="Retour" class="btn btn-dark" />
+            </form>
+        </div>
+        <div class="Container_Form"></div>
+        <div class="Container_Form"></div>
+        <div></div>
+    </div>
+</div>

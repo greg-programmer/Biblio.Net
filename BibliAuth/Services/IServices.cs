@@ -5,5 +5,7 @@ namespace BibliAuth.Services
     public interface IServices
     {
         public void FavoriteBook(bool heart, List<Livre> livrelist, long id);
+        public List<Livre> InputSearch(string input);   
+      
     }
 }

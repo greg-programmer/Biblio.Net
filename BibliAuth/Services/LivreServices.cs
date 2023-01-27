@@ -1,5 +1,6 @@
 ﻿using BibliAuth.Data;
 using BibliAuth.Models;
+using Microsoft.EntityFrameworkCore;
 
 namespace BibliAuth.Services
 {
@@ -7,7 +8,7 @@ namespace BibliAuth.Services
     {
         ApplicationDbContext context;
 
-        public LivreServices(ApplicationDbContext context)
+        public LivreServices(ApplicationDbContext context) : base(context)
         {
             this.context = context;
         }
@@ -46,5 +47,13 @@ namespace BibliAuth.Services
                 }
             }
         }
+        public List<Livre> InputSearch(string input)
+        {
+             return context.Livre.Where(b => b.Titre.Contains(input))
+                .Include("Genres")
+                .Include("Auteurs")
+                .ToList();
+        }
     }
+
 }

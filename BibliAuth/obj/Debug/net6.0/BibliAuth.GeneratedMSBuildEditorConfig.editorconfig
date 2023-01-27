@@ -43,8 +43,24 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/aurel/source/repos/Bidhjshjdhblio.Net/BibliAuth/Views/Livres/Error404BookNotFound.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXEVycm9yNDA0Qm9va05vdEZvdW5kLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/aurel/source/repos/Bidhjshjdhblio.Net/BibliAuth/Views/Livres/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aurel/source/repos/Bidhjshjdhblio.Net/BibliAuth/Views/Livres/InputSearch.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXElucHV0U2VhcmNoLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aurel/source/repos/Bidhjshjdhblio.Net/BibliAuth/Views/Livres/MaxFile.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXE1heEZpbGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/aurel/source/repos/Bidhjshjdhblio.Net/BibliAuth/Views/Livres/RomanFilter.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTGl2cmVzXFJvbWFuRmlsdGVyLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/aurel/source/repos/Bidhjshjdhblio.Net/BibliAuth/Views/Shared/Error.cshtml]

@@ -1,59 +1,44 @@
-﻿@model IEnumerable<BibliAuth.Models.Livre>
+﻿@model BibliAuth.Models.ViewModel
 
 @{
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
-
 <p>
     <a asp-action="Create">Create New</a>
 </p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Titre)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Date_Parution)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Synopsis)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CheminImage)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.CoupDeCoeur)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Titre)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Date_Parution)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Synopsis)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CheminImage)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.CoupDeCoeur)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+    <section class="row g-5">
+        @for (var i = 0; i < Model.LivreViewM.Count; i++)
+        {
+            <article class="col-xl-4 d-flex flex-row justify-content-center">
+                <div class="container_img_reservation">
+                    <a asp-action="Details" asp-route-id="@Model.LivreViewM[i].Id" class="col-xl-10">
+                        <img class="img-fluid" src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )" alt="Couverture de Livres" />
+                    </a>
+                    <button type="button" class="col-xl-12 btn btn-primary btn-lg mt-3">Réserver</button>
+                </div>
+                <ul class="col-xl-9">
+                    <li>@Model.LivreViewM[i].Titre</li>
+                <li>@Model.AuteurViewM[i].Prenom @Model.AuteurViewM[i].Nom</li>
+                <li>Genre :@Model.GenreViewM[i].Nom</li>
+                    <li>Date de parution : @Model.LivreViewM[i].Date_Parution</li>
+                    <li>@Model.LivreViewM[i].Synopsis</li>
+                </ul>
+            </article>   
+
+        }
+
+        @*     <a asp-action="Edit" asp-route-id="@item.Id">Edit</a>
+        <a asp-action="Details" asp-route-id="@item.Id">Details</a>
+        <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>*@
+
+
+
+    </section>
+
+
+
+
+
+

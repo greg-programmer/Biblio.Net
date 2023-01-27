@@ -25,6 +25,7 @@ namespace BibliAuth.Controllers
         string notCover = "not_Cover.jpg";
         List<Livre> _livreList = new List<Livre>();
         List<Auteur> _AuteurList = new List<Auteur>();
+        List<Genre> _GenreList = new List<Genre>();
 
         public HomeController(ApplicationDbContext context,
             ILogger<HomeController> logger, 
@@ -35,7 +36,7 @@ namespace BibliAuth.Controllers
             _environment = environment;
             _livreRepository = new LivreRepository(context);
             _auteurRepository = new AuteurRepository(context);
-            _genreRepository = new GenreRepository(context);
+            _genreRepository = new GenreRepository(context);            
             livreServices = new LivreServices(context);
         }
 
@@ -43,10 +44,13 @@ namespace BibliAuth.Controllers
         {
             _livreList = _livreRepository.FindAll();
             _AuteurList = _auteurRepository.FindAll();
+            _GenreList = _genreRepository.FindAll();
             ViewModel viewModel = new ViewModel()
             {
                 AuteurViewM = _AuteurList,
                 LivreViewM = _livreList,
+                GenreViewM = _GenreList,
+
             };
             return View(viewModel);           
         }

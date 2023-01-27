@@ -10,6 +10,7 @@ using BibliAuth.Models;
 using Microsoft.AspNetCore.Authorization;
 using BibliAuth.Repository;
 using BibliAuth.Services;
+using BibliAuth.Data.Migrations;
 
 namespace BibliAuth.Controllers
 {
@@ -28,165 +29,368 @@ namespace BibliAuth.Controllers
         //--------Emplacement qui contient toutes les variables---------//
         string notCover = "not_Cover.jpg";
         List<Livre> _livreList = new List<Livre>();
-        List<Auteur> _AuteurList = new List<Auteur>();
+        List<Auteur> _AuteurList = new List<Auteur>();     
+        List<Genre> _genreList = new List<Genre>();     
+          
 
-        public LivresController(ApplicationDbContext context,
-            IHostEnvironment environment)
+            public LivresController(ApplicationDbContext context, IHostEnvironment environment)
+            {
+                _context = context;
+                _environment = environment;
+                _livreRepository = new LivreRepository(context);
+                _auteurRepository = new AuteurRepository(context);
+                _genreRepository = new GenreRepository(context);
+                livreServices = new LivreServices(context);
+            }
+
+            // GET: Livres1
+            public async Task<IActionResult> Index()
+            {
+            
+                _livreList = _livreRepository.FindAll();
+                _AuteurList = _auteurRepository.FindAll();
+            _genreList = _genreRepository.FindAll();
+            ViewModel viewModel = new ViewModel()
+                {
+                    AuteurViewM = _AuteurList,
+                    LivreViewM = _livreList,
+                    GenreViewM = _genreList,    
+                };
+                return View(viewModel);
+            }    
+        // GET: Récupère les livres recherchés
+        public async Task<IActionResult> inputSearch(string value)
         {
-            _context = context;
-            _environment = environment;
-            _livreRepository = new LivreRepository(context);
-            _auteurRepository = new AuteurRepository(context);
-            _genreRepository = new GenreRepository(context);
-            livreServices = new LivreServices(context);
+            
+            _livreList = livreServices.InputSearch(value);
+            var q = (from pd in _livreList
+                     join od in _context.Auteur on pd.Id equals od.LivreId
+                     join ad in _context.Genre on pd.Id equals ad.LivreId
+                     orderby od.LivreId
+                     select new ViewModel()
+                     {
+                         LivreViewM_Nolist = pd,
+                         AuteurViewM_Nolist = od,
+                         GenreViewM_Nolist = ad,
+                     }).ToList();
+
+
+            if ( q.Count() == 0)
+            {
+                return RedirectToAction(nameof(Error404BookNotFound));
+            }       
+            return View(q);
+        }
+        //Il s'agit de la requête pour filtrer les livres par genre/
+        public async Task<IActionResult> RomanFilter(string value)
+        {
+            var GenreList = _genreRepository.FindAll();
+            var GenrelistRoman = GenreList.Where(b => b.Nom == "Roman").ToList();
+            var q = (from pd in GenrelistRoman
+                     join od in _context.Livre on pd.LivreId equals od.Id
+                     join ad in _context.Auteur on pd.LivreId equals ad.LivreId
+                     orderby od.Id
+                     select new ViewModel()
+                     {
+                         LivreViewM_Nolist = od,
+                         AuteurViewM_Nolist = ad,
+                         GenreViewM_Nolist = pd,
+                     }).ToList();
+            return View(q);
+        }
+        //Affiche livre non trouvé//
+        public async Task<IActionResult>Error404BookNotFound ()
+        {     
+            return View();
         }
 
+        // GET: Livres1/Details/5
+        public async Task<IActionResult> Details(long? id)
+            {
+                if (id == null || _livreList == null)
+                {
+                    return NotFound();
+                }
 
+                var livre = _livreRepository.FindById(id.Value);
+                var auteur = _auteurRepository.FindById(id.Value);
+                var genre = _genreRepository.FindById(id.Value);
+                var livreList = _livreRepository.FindAll();
 
-        // GET: Livres
-        public async Task<IActionResult> Index()
-        {
+                if (livre == null)
+                {
+                    return NotFound();
+                }
+
+                if (livre.Id != auteur.LivreId)
+                {
+                    return NotFound();
+                }
+                ViewModel viewModel = new ViewModel
+                {
+                    AuteurViewM_Nolist = auteur,
+                    LivreViewM_Nolist = livre,
+                    GenreViewM_Nolist = genre,
+                    LivreViewM = livreList
+                };
+
+                return View(viewModel);
+            }
+
+            // GET: Livres1/Create
+            public IActionResult Create()
+            {
             _livreList = _livreRepository.FindAll();
             _AuteurList = _auteurRepository.FindAll();
+            _genreList = _genreRepository.FindAll();
             ViewModel viewModel = new ViewModel()
             {
                 AuteurViewM = _AuteurList,
                 LivreViewM = _livreList,
-            };
+                GenreViewM = _genreList,               
+            };           
+            
             return View(viewModel);
-        }
+        } 
+           
 
-        // GET: Livres/Details/5
-        public async Task<IActionResult> Details(long? id)
-        {
-            if (id == null || _context.Livre == null)
-            {
-                return NotFound();
-            }
-
-            var livre = await _context.Livre
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (livre == null)
-            {
-                return NotFound();
-            }
-
-            return View(livre);
-        }
-        [Authorize]
-        // GET: Livres/Create
-        public IActionResult Create()
-        {
-            return View();
-        }
-        [Authorize]
-        // POST: Livres/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("Titre,Date_Parution,Synopsis,CheminImage,CoupDeCoeur,Id")] Livre livre)
-        {
-            if (ModelState.IsValid)
-            {
-                _context.Add(livre);
-                await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));
-            }
-            return View(livre);
-        }
-
-        // GET: Livres/Edit/5
-        public async Task<IActionResult> Edit(long? id)
-        {
-            if (id == null || _context.Livre == null)
-            {
-                return NotFound();
-            }
-
-            var livre = await _context.Livre.FindAsync(id);
-            if (livre == null)
-            {
-                return NotFound();
-            }
-            return View(livre);
-        }
-        [Authorize]
-        // POST: Livres/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(long id, [Bind("Titre,Date_Parution,Synopsis,CheminImage,CoupDeCoeur,Id")] Livre livre)
-        {
-            if (id != livre.Id)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
+            // POST: Livres1/Create
+            // To protect from overposting attacks, enable the specific properties you want to bind to.
+            // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+            [HttpPost]
+            [ValidateAntiForgeryToken]
+            public async Task<IActionResult> Create(ViewModel viewModel, bool heart)
             {
                 try
                 {
-                    _context.Update(livre);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!LivreExists(livre.Id))
+                    if (viewModel.LivreViewM_Nolist.Image.Length > 1000000)
                     {
-                        return NotFound();
+
+                        return RedirectToAction(nameof(MaxFile));
+
+                    }
+                    _livreRepository.GetFilesPath(viewModel);
+                }
+                catch
+                {
+                    viewModel.LivreViewM_Nolist.CheminImage = notCover;
+                }
+                _livreRepository.Insert(viewModel.LivreViewM_Nolist);
+                _auteurRepository.Insert(viewModel.AuteurViewM_Nolist);
+                _genreRepository.Insert(viewModel.GenreViewM_Nolist);
+                _livreRepository.Commit();
+                _genreRepository.Commit();
+                _auteurRepository.Commit();            
+                //Récupération de l'Id automatique du livre
+                await _context.SaveChangesAsync();
+                //Initalisation de livreId de Auteur avec l'Id récupéré du livre
+                viewModel.AuteurViewM_Nolist.LivreId = viewModel.LivreViewM_Nolist.Id;
+                //Initalisation de livreId de Genre avec l'Id récupéré du livre
+                viewModel.GenreViewM_Nolist.LivreId = viewModel.LivreViewM_Nolist.Id;
+                var livreList = _livreRepository.FindAll();
+                livreServices.FavoriteBook(heart, livreList, viewModel.LivreViewM_Nolist.Id);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));                
+            }
+
+            public IActionResult MaxFile()
+            {
+                return View();
+            }
+
+            // GET: Livres1/Edit/5
+            public async Task<IActionResult> Edit(long? id)
+            {
+
+                if (id == null || _livreList == null)
+                {
+                    return NotFound();
+                }
+                var livre = _livreRepository.FindById(id.Value);
+                var auteur = _auteurRepository.FindById(id.Value);
+                var genre = _genreRepository.FindById(id.Value);
+                var livreList = _livreRepository.FindAll();
+
+                if (livre == null)
+                {
+                    return NotFound();
+                }
+
+                if (livre.Id != auteur.LivreId)
+                {
+                    return NotFound();
+                }
+
+                ViewModel viewModel = new ViewModel
+                {
+                    AuteurViewM_Nolist = auteur,
+                    LivreViewM_Nolist = livre,
+                    GenreViewM_Nolist = genre,
+                    LivreViewM = livreList,
+                };
+
+                return View(viewModel);
+
+            }
+
+            // POST: Livres1/Edit/5
+            // To protect from overposting attacks, enable the specific properties you want to bind to.
+            // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+            [HttpPost]
+            [ValidateAntiForgeryToken]
+            public async Task<IActionResult> Edit(long id, ViewModel viewModel, bool heart)
+
+            {
+                var livre = _livreRepository.FindById(id);
+                var auteur = _auteurRepository.FindById(id);
+                var genre = _genreRepository.FindById(id);
+                var livreList = _livreRepository.FindAll();
+
+
+                if (livre == null)
+                {
+                    return NotFound();
+                }
+
+
+
+                try
+                {
+                    _livreRepository.GetFilesPath(viewModel);
+                    //Appel de la méthode GetfilesPath() pour récuperer le chemin du nouveau fichier 
+                    if (viewModel.LivreViewM_Nolist.CheminImage != null)
+                    {
+                        _livreRepository.DeleteImage(livre.CheminImage);
+                    }
+                    //Appel de la méthode DeleteImage() pour supprimer l'ancienne image               
+                }
+                catch
+                {
+                    if (livre.CheminImage != notCover)
+                    {
+                        viewModel.LivreViewM_Nolist.CheminImage = livre.CheminImage;
                     }
                     else
                     {
-                        throw;
+                        viewModel.LivreViewM_Nolist.CheminImage = notCover;
                     }
                 }
+                if (heart)
+                {
+                    livreServices.FavoriteBook(heart, livreList, id);
+                }
+                else
+                {
+                    livre.CoupDeCoeur = heart;
+                }
+
+                if (livre.Id == auteur.LivreId && livre.Id == genre.LivreId)
+                {
+                    livre.Titre = viewModel.LivreViewM_Nolist.Titre;
+                    livre.Date_Parution = viewModel.LivreViewM_Nolist.Date_Parution;
+                    if (viewModel.LivreViewM_Nolist.Image == null)
+                    {
+                        viewModel.LivreViewM_Nolist.CheminImage = livre.CheminImage;
+                    }
+                    else
+                    {
+                        livre.CheminImage = viewModel.LivreViewM_Nolist.CheminImage;
+                    }
+                    livre.Synopsis = viewModel.LivreViewM_Nolist.Synopsis;
+                    _context.Livre.Update(livre);
+                    auteur.Prenom = viewModel.AuteurViewM_Nolist.Prenom;
+                    auteur.Nom = viewModel.AuteurViewM_Nolist.Nom;
+                    _context.Auteur.Update(auteur);
+                    genre.Nom = viewModel.GenreViewM_Nolist.Nom;
+                    _context.Genre.Update(genre);
+                    await _context.SaveChangesAsync();
+                    return RedirectToAction(nameof(Index));
+                }
+
+
+                return View(viewModel);
+            }
+
+            // GET: Livres1/Delete/5
+            public async Task<IActionResult> Delete(long? id)
+            {
+                if (id == null || _livreList == null)
+                {
+                    return NotFound();
+                }
+
+                var livre = _livreRepository.FindById(id.Value);
+                if (livre == null)
+                {
+                    return NotFound();
+                }
+
+                return View(livre);
+            }
+            //GET : Image/delete
+            public async Task<IActionResult> DeleteImageConfirmed(long id)
+            {
+                var livre = _livreRepository.FindById(id);
+                if (livre == null)
+                {
+                    return NotFound();
+                }
+                return View(livre);
+            }
+            [HttpPost, ActionName("DeleteImageConfirmedPost")]
+            [ValidateAntiForgeryToken]
+            public async Task<IActionResult> DeleteConfirmed(long id)
+            {
+                if (_livreList == null)
+                {
+                    return Problem("Le livre n'existe pas!");
+                }
+                var livre = await _context.Livre.FindAsync(id);
+
+
+                if (livre != null && livre.CheminImage != null)
+                {
+                    _livreRepository.DeleteImage(livre.CheminImage);
+                }
+
+                livre.CheminImage = notCover;
+                //_context.Genres.Remove(genre);
+
+                await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(livre);
-        }
-        [Authorize]
-        // GET: Livres/Delete/5
-        public async Task<IActionResult> Delete(long? id)
-        {
-            if (id == null || _context.Livre == null)
-            {
-                return NotFound();
-            }
 
-            var livre = await _context.Livre
-                .FirstOrDefaultAsync(m => m.Id == id);
-            if (livre == null)
+            // POST: Livres1/Delete/5
+            [HttpPost, ActionName("Delete")]
+            [ValidateAntiForgeryToken]
+            public async Task<IActionResult> DeleteConfirmedImage(long id)
             {
-                return NotFound();
-            }
+                if (_context.Livre == null)
+                {
+                    return Problem("Le livre n'existe pas!");
+                }
+                var livre = _livreRepository.FindById(id);
+                var auteur = _auteurRepository.FindById(id);
+                var genre = _genreRepository.FindById(id);
+                var livreList = _livreRepository.FindAll();
 
-            return View(livre);
-        }
-        [Authorize]
-        // POST: Livres/Delete/5
-        [HttpPost, ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(long id)
-        {
-            if (_context.Livre == null)
-            {
-                return Problem("Entity set 'ApplicationDbContext.Livre'  is null.");
-            }
-            var livre = await _context.Livre.FindAsync(id);
-            if (livre != null)
-            {
+                if (livre != null && livre.CheminImage != null)
+                {
+                    _livreRepository.DeleteImage(livre.CheminImage);
+                }
+
                 _context.Livre.Remove(livre);
-            }
-            
-            await _context.SaveChangesAsync();
-            return RedirectToAction(nameof(Index));
-        }
+                _context.Auteur.Remove(auteur);
+                _context.Genre.Remove(genre);
+                //_context.Genres.Remove(genre);
 
-        private bool LivreExists(long id)
-        {
-          return _context.Livre.Any(e => e.Id == id);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+
+            private bool LivreExists(long id)
+            {
+                return _context.Livre.Any(e => e.Id == id);
+            }
         }
     }
-}

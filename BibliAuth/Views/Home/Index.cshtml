@@ -34,9 +34,14 @@
 <section class="container">
     <main class="row justify-content-center">
         <div class=" blocSectionA shadow p-3 mb-5 mt-0 rounded col-xl-12 col-lg-10 col-md-12 col-sm-12 col-xs-12 row gy-3 gx-3 animation-home">
-         <aside class="col-xl-3">       
-                <button type="button" class="col-xl-12 btn btn-primary btn-lg">Catégories</button>
-                <button type="button" class="col-xl-12 btn btn-primary btn-lg">Roman</button>
+         <aside class="col-xl-3">    
+             <h4 class="col-xl-12 bg-info text-center m-0 p-1">Catégories</h4> 
+             <form>
+                    <button class="col-xl-12 btn btn-primary btn-lg" asp-controller="Livres" asp-action="Index" type="submit">Tous</button>
+                </form>
+                <form>
+                    <button class="col-xl-12 btn btn-primary btn-lg" asp-controller="Livres" asp-action="RomanFilter" type="submit">Roman</button>
+                </form>             
                 <button type="button" class="col-xl-12 btn btn-primary btn-lg">Policier/Thriller</button>
                 <button type="button" class="col-xl-12 btn btn-primary btn-lg">Science fiction</button>
                 <button type="button" class="col-xl-12 btn btn-primary btn-lg">Fantasy</button>
@@ -47,7 +52,7 @@
             <article class="col-xl-6 d-flex flex-row justify-content-center">
              <div class="container_img_reservation col-xl-3">
                     <img class="col-xl-12 img-fluid" src="/Upload/batman2.jpg" />
-                    <button type="button" class="col-xl-12 btn btn-primary btn-lg mt-3">Réserver</button>
+                    <button type="button" class="col-xl-10 btn btn-primary btn-lg mt-3">Réserver</button>
              </div>  
              <ul class="col-xl-6">
                     <li>BATMAN - Tome 1 </li>

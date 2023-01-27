@@ -1,9 +1,19 @@
-﻿using BibliAuth.Models;
+﻿using BibliAuth.Data;
+using BibliAuth.Models;
+using BibliAuth.Repository;
+using Microsoft.EntityFrameworkCore;
 
 namespace BibliAuth.Services
 {
     public class Services : IServices
     {
+        private ApplicationDbContext Context;
+
+        public Services(ApplicationDbContext context)
+        {
+            Context = context;
+        }
+
         public void FavoriteBook(bool heart, List<Livre> livrelist, long id)
         {
             if (heart)
@@ -37,6 +47,14 @@ namespace BibliAuth.Services
                     }
                 }
             }
+        }
+
+        public List<Livre> InputSearch(string input)
+        {
+            return Context.Livre.Where(b => b.Titre.Contains(input))
+                .Include("Genres")
+                .Include("Auteurs")
+                .ToList();
         }
     }
 }

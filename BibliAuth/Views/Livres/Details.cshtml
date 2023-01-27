@@ -1,4 +1,4 @@
-﻿@model BibliAuth.Models.Livre
+﻿@model BibliAuth.Models.ViewModel
 
 @{
     ViewData["Title"] = "Details";
@@ -10,39 +10,39 @@
     <h4>Livre</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Titre)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LivreViewM_Nolist.Titre)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Titre)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LivreViewM_Nolist.Titre)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Date_Parution)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LivreViewM_Nolist.Date_Parution)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Date_Parution)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LivreViewM_Nolist.Date_Parution)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Synopsis)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LivreViewM_Nolist.Synopsis)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.Synopsis)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LivreViewM_Nolist.Synopsis)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CheminImage)
+        <dt class="col-sm-2">
+            <img class="img-fluid" src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM_Nolist.CheminImage )" alt="Couverture de Livres" />
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CheminImage)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LivreViewM_Nolist.CheminImage)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CoupDeCoeur)
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.LivreViewM_Nolist.CoupDeCoeur)
         </dt>
-        <dd class = "col-sm-10">
-            @Html.DisplayFor(model => model.CoupDeCoeur)
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.LivreViewM_Nolist.CoupDeCoeur)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model?.Id">Edit</a> |
+    <a asp-action="Edit" asp-route-id="@Model?.LivreViewM_Nolist.Id">Edit</a> 
     <a asp-action="Index">Back to List</a>
 </div>

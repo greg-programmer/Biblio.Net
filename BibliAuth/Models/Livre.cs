@@ -14,20 +14,20 @@ namespace BibliAuth.Models
             [Display(Name = "Date de parution")]
             public DateTime? Date_Parution { get; set; }
             [Required(ErrorMessage = "Un résumé vous aidera à attirer le lecteur !")]
-            [MaxLength(200)]
-            [Display(Name = "Résumer du livre ...(200 caractères maximum)")]
+            [MaxLength(500)]
+            [Display(Name = "Résumer du livre ...(500 caractères maximum)")]
             public string? Synopsis { get; set; }
 
             public enum Type_Livre
             {
-                Bande_dessine,
+                BD,
                 Magazine,
                 Roman,
-                Biographie,
+                Théâtre,
+                Policier,
                 Manga
             }
-
-            [RegularExpression(@"([a-zA-Z0-9\s_\\.\-\(\):])+(.jpeg|.jpg|.gif|"")$",
+         [RegularExpression(@"([a-zA-Z0-9\s_\\.\-\(\):])+(.jpeg|.jpg|.gif|"")$",
                 ErrorMessage = "Format autorisés : jpeg, jpg, gif.")]
             [NotMapped]
             public IFormFile? Image { get; set; }

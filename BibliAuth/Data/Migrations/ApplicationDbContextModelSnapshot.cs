@@ -87,7 +87,7 @@ namespace BibliAuth.Data.Migrations
                     b.ToTable("Genre");
                 });
 
-            modelBuilder.Entity("BibliAuth.Models.Livres+Livre", b =>
+            modelBuilder.Entity("BibliAuth.Models.Livre", b =>
                 {
                     b.Property<long>("Id")
                         .ValueGeneratedOnAdd()
@@ -106,12 +106,15 @@ namespace BibliAuth.Data.Migrations
 
                     b.Property<string>("Synopsis")
                         .IsRequired()
-                        .HasMaxLength(200)
-                        .HasColumnType("nvarchar(200)");
+                        .HasMaxLength(500)
+                        .HasColumnType("nvarchar(500)");
 
                     b.Property<string>("Titre")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
+
+                    b.Property<int>("Type")
+                        .HasColumnType("int");
 
                     b.HasKey("Id");
 
@@ -343,7 +346,7 @@ namespace BibliAuth.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BibliAuth.Models.Livres+Livre", null)
+                    b.HasOne("BibliAuth.Models.Livre", null)
                         .WithMany()
                         .HasForeignKey("LivresId")
                         .OnDelete(DeleteBehavior.Cascade)
@@ -358,7 +361,7 @@ namespace BibliAuth.Data.Migrations
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("BibliAuth.Models.Livres+Livre", null)
+                    b.HasOne("BibliAuth.Models.Livre", null)
                         .WithMany()
                         .HasForeignKey("LivresId")
                         .OnDelete(DeleteBehavior.Cascade)
