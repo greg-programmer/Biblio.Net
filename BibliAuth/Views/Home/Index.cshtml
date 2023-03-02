@@ -7,27 +7,34 @@
     <main class="row justify-content-center">
         <aside class=" blocSectionA shadow p-3 mb-0 bg-info rounded col-xl-12 col-lg-10 col-md-12 col-sm-12 col-xs-12 row gy-3 gx-3 animation-home justify-content-around mt-0">
             <h3 class="col-xl-3">Derniers arrivages</h3>
-       
-            <a class="col-9 col-xl-2 col-md-3 col-sm-3" href="#">
-                <img class="img-fluid"
+            @for(var i = 0; i < Model.LivreViewM.Count(); i++)
+            {
+                //Un condition au cas ou l'administateur n'affiche pas les 4 premiers livres de la page HOME//
+                if (Model.LivreViewM.Count() < 4)
+                {
+                    if (i < Model.LivreViewM.Count()){
+                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" href="#">
+                            <img class="img-fluid"
                      src="~/Upload/batman2.jpg"
                      alt="Couverture de Livres" />
-            </a>
-  
-            <a class="col-9 col-xl-2 col-md-3 col-sm-3" href="#">
-                <img class="img-fluid"
-                     src="~/Upload/death_note.jpg"
+                        </a>
+                    }
+                }
+                else if (Model.LivreViewM.Count() >= 4)
+                {
+                    if (i < 4)
+                    {
+                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" href="#">
+                            <img class="img-fluid"
+                     src="~/Upload/batman2.jpg"
                      alt="Couverture de Livres" />
-            </a>
-         
-            <a class="col-9 col-xl-2 col-md-3 col-sm-3" href="#">
-                <img class="img-fluid" src="~/Upload/harry.jpg"
-                     alt="Couverture de Livres" />
-            </a>
-            <a class="col-9 col-xl-2 col-md-3 col-sm-3" href="#">
-                <img class="img-fluid" src="~/Upload/zola.jpg"
-                     alt="Couverture de Livres" />
-            </a>
+                        </a>
+                    }else{
+                        break;
+                    }
+                }
+                //Le haut de page n'affiche pas plus de 4 livres Sur la page HOME//     
+            }      
         </aside>
     </main>
 </section>
