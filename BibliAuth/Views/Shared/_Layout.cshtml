@@ -1,4 +1,7 @@
-﻿<!DOCTYPE html>
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="utf-8" />
@@ -25,16 +28,19 @@
                         <ul class="navbar-nav flex-grow-0">
                             <li class="nav-item">
                                 <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Accueil</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">réservations</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Demandes de réservations</a>
-                            </li>  
-                            <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Livres" asp-action="Create">Ajouter <i class="fas fa-plus"></i></a>
-                            </li>
+                            </li>                           
+                            @if (SignInManager.IsSignedIn(User))
+                            {                    
+                                if(User.Identity.Name == "gregory.schoemaecker@adminbookin.fr")
+                                {
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Réservations en attente</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Livres" asp-action="Create">Ajouter <i class="fas fa-plus"></i></a>
+                                    </li>
+                                }                             
+                            }                          
                         </ul>
                         <form class="d-flex">                           
                             <input class="form-control me-2" name="value" type="search" placeholder="Rechercher un livre..." aria-label="Search" required>

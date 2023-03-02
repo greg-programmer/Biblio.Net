@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Y3j7zXFsv3VjnjtvcT5kp0BIKvaJ87XPhl5Qa9faVEl5QtZG+x6OA3yHbNQANirJG6JzjmAWyOdH/rjsOwl+qw==",
+  "dgSpecHash": "NJSrrpoVWS4EujKokWBrZOFXjMxebsBxhjwGTigPN391amwU/QIqCU229b10z6pTPYhdbfMBhfGNJ4gzh08heg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\aurel\\source\\repos\\Bidhjshjdhblio.Net\\BibliAuth\\BibliAuth.csproj",
+  "projectFilePath": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\BibliAuth.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\aurel\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\aurel\\.nuget\\packages\\messagepack\\2.1.152\\messagepack.2.1.152.nupkg.sha512",
