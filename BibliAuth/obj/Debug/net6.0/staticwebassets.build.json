@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "DXk+QDDA40AsRF4ViuaG3dzNZ40iL+0RrEId9OBhzAc=",
+  "Hash": "wL2IZswOsc/HZNeGflBSyTkM1h7Y3189cxDQH02q2RQ=",
   "Source": "BibliAuth",
   "BasePath": "_content/BibliAuth",
   "Mode": "Default",
@@ -2091,6 +2091,23 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
+      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\752994235104487.jpg",
+      "SourceId": "BibliAuth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "BasePath": "_content/BibliAuth",
+      "RelativePath": "Upload/752994235104487.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\752994235104487.jpg"
+    },
+    {
       "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
@@ -2905,6 +2922,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Upload\\OIP232357727.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\u4230234182.jpg",
+      "SourceId": "BibliAuth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "BasePath": "_content/BibliAuth",
+      "RelativePath": "Upload/u4230234182.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\u4230234182.jpg"
     },
     {
       "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\zola.jpg",

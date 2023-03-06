@@ -13,11 +13,11 @@
                 if (Model.LivreViewM.Count() < 4)
                 {
                     if (i < Model.LivreViewM.Count()){
-                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" href="#">
-                            <img class="img-fluid"
-                     src="~/Upload/batman2.jpg"
-                     alt="Couverture de Livres" />
-                        </a>
+                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" href="#">                          
+                <img class="img-fluid" 
+                src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )" 
+                alt="Couverture de Livres" />
+                        </a>      
                     }
                 }
                 else if (Model.LivreViewM.Count() >= 4)
@@ -26,7 +26,7 @@
                     {
                         <a class="col-9 col-xl-2 col-md-3 col-sm-3" href="#">
                             <img class="img-fluid"
-                     src="~/Upload/batman2.jpg"
+                     src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )"
                      alt="Couverture de Livres" />
                         </a>
                     }else{
@@ -56,28 +56,44 @@
                 <button type="button" class="col-xl-12 btn btn-primary btn-lg">Comics</button>
                 <button type="button" class="col-xl-12 btn btn-primary btn-lg">Manga</button>
             </aside>
-            <article class="col-xl-6 d-flex flex-row justify-content-center">
-             <div class="container_img_reservation col-xl-3">
-                    <img class="col-xl-12 img-fluid" src="/Upload/batman2.jpg" />
-                    <button type="button" class="col-xl-10 btn btn-primary btn-lg mt-3">Réserver</button>
-             </div>  
-             <ul class="col-xl-6">
-                    <li>BATMAN - Tome 1 </li>
-                    <li>Greg Capullo</li>
-                    <li>Genre : Comics</li>
-                    <li>Date de parution : 07/06/2012</li>
-                    <li>Après une longue période d’absence, 
-                        Bruce Wayne est de retour sous le masque de Batman, 
-                        à la poursuite d’un mystérieux tueur en série aux allures de hibou, et dont la prochaine cible n’est autre que... 
-                        Bruce Wayne. Plus il progresse dans son enquête, plus le Chevalier Noir rassemble d’éléments sur les motivations de son ennemi. 
-                        Il découvre alors une sombre vérité mêlant la famille Wayne aux fondations troubles de Gotham City.
-                    </li>
-             </ul>             
+            <article class="col-xl-6 d-flex flex-row justify-content-center">         
+                @for(var i = 0;i < 1;i++)
+                {
+                  if(i < 1)
+                  {
+                        <div class="container_img_reservation col-xl-3">
+                            <img class="img-fluid"
+                         src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )"
+                         alt="Couverture de Livres" />
+                            <button type="button" class="col-xl-10 btn btn-primary btn-lg mt-3">Réserver</button>
+                        </div>
+                        <ul class="col-xl-6">
+                            <li>Titre : @Html.DisplayFor(modeL => modeL.LivreViewM[i].Titre) </li>
+                            <li>Auteur : @Html.DisplayFor(model => model.AuteurViewM[i].Prenom) @Html.DisplayFor(model => model.AuteurViewM[i].Nom) </li>
+                            <li>Genre : @Html.DisplayFor(model => model.GenreViewM[i].Nom)</li>
+                            <li>Date de Partution : @Html.DisplayFor(model => model.LivreViewM[i].Date_Parution)</li>
+                            <li>Résumé : @Html.DisplayFor(model => model.LivreViewM[i].Synopsis)</li>
+                        </ul>
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }           
           </article>
-         <aside class="col-xl-3 bg-info d-flex flex-column justify-content-center align-items-center">
-                <h4>Coup de <i class="fas fa-heart"></i> du mois</h4>
-                <img class="img-fluid col-xl-7" src="/Upload/batman.jpg" />
-         </aside>
+            @for(var i = 0; i < Model.LivreViewM.Count(); i++)
+            {
+                @if(Model.LivreViewM[i].CoupDeCoeur)
+                {
+                    <aside class="col-xl-3 bg-info d-flex flex-column justify-content-center align-items-center">
+                        <h4>Coup de <i class="fas fa-heart"></i> du mois</h4>
+                            <img class="img-fluid"
+                         src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )"
+                         alt="Couverture de Livres" />                     
+                    </aside>
+                    break;
+                }                
+            }        
         </div>
     </main>
 </section>

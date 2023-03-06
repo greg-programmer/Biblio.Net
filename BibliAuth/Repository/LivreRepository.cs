@@ -2,6 +2,7 @@
 using BibliAuth.Data;
 using BibliAuth.Models;
 using Microsoft.EntityFrameworkCore;
+using System.Linq;
 
 namespace BibliAuth.Repository
 {
@@ -17,7 +18,8 @@ namespace BibliAuth.Repository
         public override List<Livre> FindAll()
         {
             return context.Livre
-                .Where(b => b.Id > 0)        
+                .Where(b => b.Id > 0)
+                .OrderByDescending(b => b.Id)
                 .Include("Genres")
                 .Include("Auteurs")
                 .ToList();
