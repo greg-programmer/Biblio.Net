@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Authorization;
 using BibliAuth.Repository;
 using BibliAuth.Services;
 using BibliAuth.Data.Migrations;
+using NuGet.Protocol.Core.Types;
 
 namespace BibliAuth.Controllers
 {
@@ -30,8 +31,9 @@ namespace BibliAuth.Controllers
         string notCover = "not_Cover.jpg";
         List<Livre> _livreList = new List<Livre>();
         List<Auteur> _AuteurList = new List<Auteur>();     
-        List<Genre> _genreList = new List<Genre>();     
-          
+        List<Genre> _genreList = new List<Genre>(); 
+        string admin = "gregory.schoemaecker@adminbookin.fr";
+
 
             public LivresController(ApplicationDbContext context, IHostEnvironment environment)
             {
@@ -41,20 +43,23 @@ namespace BibliAuth.Controllers
                 _auteurRepository = new AuteurRepository(context);
                 _genreRepository = new GenreRepository(context);
                 livreServices = new LivreServices(context);
+            
             }
 
             // GET: Livres1
-            public async Task<IActionResult> Index()
+            public async Task<IActionResult> Index(long id)
             {
             
                 _livreList = _livreRepository.FindAll();
                 _AuteurList = _auteurRepository.FindAll();
             _genreList = _genreRepository.FindAll();
+          
             ViewModel viewModel = new ViewModel()
-                {
-                    AuteurViewM = _AuteurList,
-                    LivreViewM = _livreList,
-                    GenreViewM = _genreList,    
+            {
+                AuteurViewM = _AuteurList,
+                LivreViewM = _livreList,
+                GenreViewM = _genreList,
+                LivreViewM_Nolist = _livreRepository.FindById(id),
                 };
                 return View(viewModel);
             }    
@@ -136,21 +141,28 @@ namespace BibliAuth.Controllers
 
                 return View(viewModel);
             }
-
+        
             // GET: Livres1/Create
             public IActionResult Create()
             {
-            _livreList = _livreRepository.FindAll();
-            _AuteurList = _auteurRepository.FindAll();
-            _genreList = _genreRepository.FindAll();
-            ViewModel viewModel = new ViewModel()
+            if(User.Identity.Name == admin)
             {
-                AuteurViewM = _AuteurList,
-                LivreViewM = _livreList,
-                GenreViewM = _genreList,               
-            };           
+                _livreList = _livreRepository.FindAll();
+                _AuteurList = _auteurRepository.FindAll();
+                _genreList = _genreRepository.FindAll();
+                ViewModel viewModel = new ViewModel()
+                {
+                    AuteurViewM = _AuteurList,
+                    LivreViewM = _livreList,
+                    GenreViewM = _genreList,
+                };
+                return View(viewModel);
+            }
+            else
+            {
+                return BadRequest();
+            }  
             
-            return View(viewModel);
         } 
            
 
@@ -160,6 +172,8 @@ namespace BibliAuth.Controllers
             [HttpPost]
             [ValidateAntiForgeryToken]
             public async Task<IActionResult> Create(ViewModel viewModel, bool heart)
+            {
+            if (User.Identity.Name == admin)
             {
                 try
                 {
@@ -180,7 +194,7 @@ namespace BibliAuth.Controllers
                 _genreRepository.Insert(viewModel.GenreViewM_Nolist);
                 _livreRepository.Commit();
                 _genreRepository.Commit();
-                _auteurRepository.Commit();            
+                _auteurRepository.Commit();
                 //Récupération de l'Id automatique du livre
                 await _context.SaveChangesAsync();
                 //Initalisation de livreId de Auteur avec l'Id récupéré du livre
@@ -190,7 +204,13 @@ namespace BibliAuth.Controllers
                 var livreList = _livreRepository.FindAll();
                 livreServices.FavoriteBook(heart, livreList, viewModel.LivreViewM_Nolist.Id);
                 await _context.SaveChangesAsync();
-                return RedirectToAction(nameof(Index));                
+                return RedirectToAction(nameof(Index));
+            }
+            else
+            {
+                return NotFound();
+            }
+                           
             }
 
             public IActionResult MaxFile()
@@ -201,7 +221,8 @@ namespace BibliAuth.Controllers
             // GET: Livres1/Edit/5
             public async Task<IActionResult> Edit(long? id)
             {
-
+               if(User.Identity.Name == admin)
+            {
                 if (id == null || _livreList == null)
                 {
                     return NotFound();
@@ -230,7 +251,11 @@ namespace BibliAuth.Controllers
                 };
 
                 return View(viewModel);
-
+            }
+            else
+            {
+                return NotFound();
+            }
             }
 
             // POST: Livres1/Edit/5
@@ -241,78 +266,48 @@ namespace BibliAuth.Controllers
             public async Task<IActionResult> Edit(long id, ViewModel viewModel, bool heart)
 
             {
+                if(User.Identity.Name == admin)
+            {
+                if (id == null || _livreList == null)
+                {
+                    return NotFound();
+                }
                 var livre = _livreRepository.FindById(id);
                 var auteur = _auteurRepository.FindById(id);
                 var genre = _genreRepository.FindById(id);
                 var livreList = _livreRepository.FindAll();
-
 
                 if (livre == null)
                 {
                     return NotFound();
                 }
 
-
-
-                try
+                if (livre.Id != auteur.LivreId)
                 {
-                    _livreRepository.GetFilesPath(viewModel);
-                    //Appel de la méthode GetfilesPath() pour récuperer le chemin du nouveau fichier 
-                    if (viewModel.LivreViewM_Nolist.CheminImage != null)
-                    {
-                        _livreRepository.DeleteImage(livre.CheminImage);
-                    }
-                    //Appel de la méthode DeleteImage() pour supprimer l'ancienne image               
-                }
-                catch
-                {
-                    if (livre.CheminImage != notCover)
-                    {
-                        viewModel.LivreViewM_Nolist.CheminImage = livre.CheminImage;
-                    }
-                    else
-                    {
-                        viewModel.LivreViewM_Nolist.CheminImage = notCover;
-                    }
-                }
-                if (heart)
-                {
-                    livreServices.FavoriteBook(heart, livreList, id);
-                }
-                else
-                {
-                    livre.CoupDeCoeur = heart;
+                    return NotFound();
                 }
 
-                if (livre.Id == auteur.LivreId && livre.Id == genre.LivreId)
+                viewModel = new ViewModel
                 {
-                    livre.Titre = viewModel.LivreViewM_Nolist.Titre;
-                    livre.Date_Parution = viewModel.LivreViewM_Nolist.Date_Parution;
-                    if (viewModel.LivreViewM_Nolist.Image == null)
-                    {
-                        viewModel.LivreViewM_Nolist.CheminImage = livre.CheminImage;
-                    }
-                    else
-                    {
-                        livre.CheminImage = viewModel.LivreViewM_Nolist.CheminImage;
-                    }
-                    livre.Synopsis = viewModel.LivreViewM_Nolist.Synopsis;
-                    _context.Livre.Update(livre);
-                    auteur.Prenom = viewModel.AuteurViewM_Nolist.Prenom;
-                    auteur.Nom = viewModel.AuteurViewM_Nolist.Nom;
-                    _context.Auteur.Update(auteur);
-                    genre.Nom = viewModel.GenreViewM_Nolist.Nom;
-                    _context.Genre.Update(genre);
-                    await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
-                }
-
+                    AuteurViewM_Nolist = auteur,
+                    LivreViewM_Nolist = livre,
+                    GenreViewM_Nolist = genre,
+                    LivreViewM = livreList,
+                };
 
                 return View(viewModel);
+            }
+            else
+            {
+                return NotFound();
+            }          
+             
             }
 
             // GET: Livres1/Delete/5
             public async Task<IActionResult> Delete(long? id)
+            {
+            if (User.Identity.Name == admin)
             {
                 if (id == null || _livreList == null)
                 {
@@ -327,8 +322,15 @@ namespace BibliAuth.Controllers
 
                 return View(livre);
             }
+            else
+            {
+                return NotFound();
+            }             
+            }
             //GET : Image/delete
             public async Task<IActionResult> DeleteImageConfirmed(long id)
+            {
+            if (User.Identity.Name == admin)
             {
                 var livre = _livreRepository.FindById(id);
                 if (livre == null)
@@ -336,6 +338,11 @@ namespace BibliAuth.Controllers
                     return NotFound();
                 }
                 return View(livre);
+            }
+            else
+            {
+                return NotFound();
+            }            
             }
             [HttpPost, ActionName("DeleteImageConfirmedPost")]
             [ValidateAntiForgeryToken]

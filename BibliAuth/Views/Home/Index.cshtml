@@ -1,4 +1,7 @@
-﻿@model BibliAuth.Models.ViewModel
+﻿@using Microsoft.AspNetCore.Identity
+@model BibliAuth.Models.ViewModel
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "Home Page";
@@ -13,7 +16,7 @@
                 if (Model.LivreViewM.Count() < 4)
                 {
                     if (i < Model.LivreViewM.Count()){
-                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" href="#">                          
+                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" asp-controller="Livres" asp-action="Details" asp-route-id="@Model.LivreViewM[i].Id">
                 <img class="img-fluid" 
                 src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )" 
                 alt="Couverture de Livres" />
@@ -24,7 +27,7 @@
                 {
                     if (i < 4)
                     {
-                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" href="#">
+                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" asp-controller="Livres" asp-action="Details" asp-route-id="@Model.LivreViewM[i].Id">
                             <img class="img-fluid"
                      src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )"
                      alt="Couverture de Livres" />
@@ -47,7 +50,9 @@
                     <button class="col-xl-12 btn btn-primary btn-lg" asp-controller="Livres" asp-action="Index" type="submit">Tous</button>
                 </form>
                 <form>
-                    <button class="col-xl-12 btn btn-primary btn-lg" asp-controller="Livres" asp-action="RomanFilter" type="submit">Roman</button>
+                    <button class="col-xl-12 btn btn-primary btn-lg"
+                    asp-controller="Livres" asp-action="RomanFilter"                 
+                    type="submit">Roman</button>
                 </form>             
                 <button type="button" class="col-xl-12 btn btn-primary btn-lg">Policier/Thriller</button>
                 <button type="button" class="col-xl-12 btn btn-primary btn-lg">Science fiction</button>
@@ -65,7 +70,32 @@
                             <img class="img-fluid"
                          src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )"
                          alt="Couverture de Livres" />
-                            <button type="button" class="col-xl-10 btn btn-primary btn-lg mt-3">Réserver</button>
+                                        
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                if (User.Identity.Name == "gregory.schoemaecker@adminbookin.fr")
+                                {
+                                    <form>
+                                        <div class="justify-content-between">
+                                            <button class="col-xl-12 btn btn-primary btn-lg"
+                                    asp-controller="Livres" asp-action="Edit" asp-route-id="@Model.LivreViewM[0].Id" type="submit">
+                                                Edit
+                                            </button>
+                                            <button class="col-xl-12 btn btn-primary btn-lg"
+                                    asp-controller="Livres" asp-action="Delete" asp-route-id="@Model.LivreViewM[0].Id" type="submit">
+                                                Delete
+                                            </button>                                   
+                                        </div>                                     
+                                    </form>                                     
+                                }
+                                if (User.Identity.Name != "gregory.schoemaecker@adminbookin.fr")
+                                {
+                                    <button type="button" class="col-xl-10 btn btn-primary btn-lg mt-3" asp-controller="Livres" asp-action="MaxFile">Réserver</button>
+                                }                             
+                            }    
+                               else{
+                                     <a asp-action="Index">Back to List</a>
+                                }
                         </div>
                         <ul class="col-xl-6">
                             <li>Titre : @Html.DisplayFor(modeL => modeL.LivreViewM[i].Titre) </li>

@@ -40,20 +40,51 @@ namespace BibliAuth.Controllers
             livreServices = new LivreServices(context);
         }
 
-        public IActionResult Index()
+        public IActionResult Index( long test )
         {
-            _livreList = _livreRepository.FindAll();
+             _livreList = _livreRepository.FindAll();
             _AuteurList = _auteurRepository.FindAll();
             _GenreList = _genreRepository.FindAll();
             ViewModel viewModel = new ViewModel()
             {
                 AuteurViewM = _AuteurList,
                 LivreViewM = _livreList,
-                GenreViewM = _GenreList,
-
+                GenreViewM = _GenreList,                
             };
             return View(viewModel);           
         }
+          // GET: Livres1/Details/5
+        public async Task<IActionResult> Details(long? id)
+            {
+                if (id == null || _livreList == null)
+                {
+                    return NotFound();
+                }
+
+                var livre = _livreRepository.FindById(id.Value);
+                var auteur = _auteurRepository.FindById(id.Value);
+                var genre = _genreRepository.FindById(id.Value);
+                var livreList = _livreRepository.FindAll();
+
+                if (livre == null)
+                {
+                    return NotFound();
+                }
+
+                if (livre.Id != auteur.LivreId)
+                {
+                    return NotFound();
+                }
+                ViewModel viewModel = new ViewModel
+                {
+                    AuteurViewM_Nolist = auteur,
+                    LivreViewM_Nolist = livre,
+                    GenreViewM_Nolist = genre,
+                    LivreViewM = livreList
+                };
+
+                return View(viewModel);
+            }
 
         public IActionResult Privacy()
         {

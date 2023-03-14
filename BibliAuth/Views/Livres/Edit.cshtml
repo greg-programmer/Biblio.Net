@@ -1,4 +1,4 @@
-﻿@model BibliAuth.Models.Livre
+﻿@model BibliAuth.Models.ViewModel
 
 @{
     ViewData["Title"] = "Edit";
@@ -13,31 +13,31 @@
         <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="Titre" class="control-label"></label>
-                <input asp-for="Titre" class="form-control" />
-                <span asp-validation-for="Titre" class="text-danger"></span>
+                <label asp-for="LivreViewM_Nolist.Titre" class="control-label"></label>
+                <input asp-for="LivreViewM_Nolist.Titre" class="form-control" />
+                <span asp-validation-for="LivreViewM_Nolist.Titre" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Date_Parution" class="control-label"></label>
-                <input asp-for="Date_Parution" class="form-control" />
-                <span asp-validation-for="Date_Parution" class="text-danger"></span>
+                <label asp-for="LivreViewM_Nolist.Date_Parution" class="control-label"></label>
+                <input asp-for="LivreViewM_Nolist.Date_Parution" class="form-control" />
+                <span asp-validation-for="LivreViewM_Nolist.Date_Parution" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="Synopsis" class="control-label"></label>
-                <input asp-for="Synopsis" class="form-control" />
-                <span asp-validation-for="Synopsis" class="text-danger"></span>
+                <label asp-for="LivreViewM_Nolist.Synopsis" class="control-label"></label>
+                <input asp-for="LivreViewM_Nolist.Synopsis" class="form-control" />
+                <span asp-validation-for="LivreViewM_Nolist.Synopsis" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="CheminImage" class="control-label"></label>
-                <input asp-for="CheminImage" class="form-control" />
-                <span asp-validation-for="CheminImage" class="text-danger"></span>
+                <label asp-for="LivreViewM_Nolist.CheminImage" class="control-label"></label>
+                <input asp-for="LivreViewM_Nolist.CheminImage" class="form-control" />
+                <span asp-validation-for="LivreViewM_Nolist.CheminImage" class="text-danger"></span>
             </div>
             <div class="form-group form-check">
                 <label class="form-check-label">
-                    <input class="form-check-input" asp-for="CoupDeCoeur" /> @Html.DisplayNameFor(model => model.CoupDeCoeur)
+                    <input class="form-check-input" asp-for="LivreViewM_Nolist.CoupDeCoeur" /> @Html.DisplayNameFor(model => model.LivreViewM_Nolist.CoupDeCoeur)
                 </label>
             </div>
-            <input type="hidden" asp-for="Id" />
+            <input type="hidden" asp-for="LivreViewM_Nolist.Id" />
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>
