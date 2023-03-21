@@ -1,0 +1,129 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model BibliAuth.Models.ViewModel
+@inject SignInManager<IdentityUser> SignInManager
+@inject UserManager<IdentityUser> UserManager
+
+@{
+    ViewData["Title"] = "Home Page";
+}
+<section class="container">
+    <main class="row justify-content-center">
+        <aside class=" blocSectionA shadow p-3 mb-0 bg-info rounded col-xl-12 col-lg-10 col-md-12 col-sm-12 col-xs-12 row gy-3 gx-3 animation-home justify-content-around mt-0">
+            <h3 class="col-xl-3">Derniers arrivages</h3>
+            @for(var i = 0; i < Model.LivreViewM.Count(); i++)
+            {
+                //Un condition au cas ou l'administateur n'affiche pas les 4 premiers livres de la page HOME//
+                if (Model.LivreViewM.Count() < 4)
+                {
+                    if (i < Model.LivreViewM.Count()){
+                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" asp-controller="Livres" asp-action="Details" asp-route-id="@Model.LivreViewM[i].Id">
+                <img class="img-fluid" 
+                src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )" 
+                alt="Couverture de Livres" />
+                        </a>      
+                    }
+                }
+                else if (Model.LivreViewM.Count() >= 4)
+                {
+                    if (i < 4)
+                    {
+                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" asp-controller="Livres" asp-action="Details" asp-route-id="@Model.LivreViewM[i].Id">
+                            <img class="img-fluid"
+                     src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )"
+                     alt="Couverture de Livres" />
+                        </a>
+                    }else{
+                        break;
+                    }
+                }
+                //Le haut de page n'affiche pas plus de 4 livres Sur la page HOME//     
+            }      
+        </aside>
+    </main>
+</section>
+<section class="container">
+    <main class="row justify-content-center">
+        <div class=" blocSectionA shadow p-3 mb-5 mt-0 rounded col-xl-12 col-lg-10 col-md-12 col-sm-12 col-xs-12 row gy-3 gx-3 animation-home">
+         <aside class="col-xl-3">    
+             <h4 class="col-xl-12 bg-info text-center m-0 p-1">Catégories</h4> 
+             <form>
+                    <button class="col-xl-12 btn btn-primary btn-lg" asp-controller="Livres" asp-action="Index" type="submit">Tous</button>
+                </form>
+                <form>
+                    <button class="col-xl-12 btn btn-primary btn-lg"
+                    asp-controller="Livres" asp-action="RomanFilter"                 
+                    type="submit">Roman</button>
+                </form>             
+                <button type="button" class="col-xl-12 btn btn-primary btn-lg">Policier/Thriller</button>
+                <button type="button" class="col-xl-12 btn btn-primary btn-lg">Science fiction</button>
+                <button type="button" class="col-xl-12 btn btn-primary btn-lg">Fantasy</button>
+                <button type="button" class="col-xl-12 btn btn-primary btn-lg">Théâtre</button>
+                <button type="button" class="col-xl-12 btn btn-primary btn-lg">Comics</button>
+                <button type="button" class="col-xl-12 btn btn-primary btn-lg">Manga</button>
+            </aside>
+            <article class="col-xl-6 d-flex flex-row justify-content-center">         
+                @for(var i = 0;i < 1;i++)
+                {
+                  if(i < 1)
+                  {
+                        <div class="container_img_reservation col-xl-3">
+                            <img class="img-fluid"
+                         src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )"
+                         alt="Couverture de Livres" />
+                                        
+                            @if (SignInManager.IsSignedIn(User))
+                            {
+                                if (User.Identity.Name == "gregory.schoemaecker@adminbookin.fr")
+                                {
+                                    <form>
+                                        <div class="justify-content-between">
+                                            <button class="col-xl-12 btn btn-primary btn-lg"
+                                    asp-controller="Livres" asp-action="Edit" asp-route-id="@Model.LivreViewM[0].Id" type="submit">
+                                                Edit
+                                            </button>
+                                            <button class="col-xl-12 btn btn-primary btn-lg"
+                                    asp-controller="Livres" asp-action="Delete" asp-route-id="@Model.LivreViewM[0].Id" type="submit">
+                                                Delete
+                                            </button>                                   
+                                        </div>                                     
+                                    </form>                                     
+                                }
+                                if (User.Identity.Name != "gregory.schoemaecker@adminbookin.fr")
+                                {
+                                    <button type="button" class="col-xl-10 btn btn-primary btn-lg mt-3" asp-controller="Livres" asp-action="MaxFile">Réserver</button>
+                                }                             
+                            }    
+                               else{
+                                     <a asp-action="Index">Back to List</a>
+                                }
+                        </div>
+                        <ul class="col-xl-6">
+                            <li>Titre : @Html.DisplayFor(modeL => modeL.LivreViewM[i].Titre) </li>
+                            <li>Auteur : @Html.DisplayFor(model => model.AuteurViewM_Nolist.Nom) @Html.DisplayFor(model => model.AuteurViewM_Nolist.Prenom) </li>
+                            <li>Genre : @Html.DisplayFor(model => model.GenreViewM_Nolist.Nom)</li>
+                            <li>Date de Partution : @Html.DisplayFor(model => model.LivreViewM[i].Date_Parution)</li>
+                            <li>Résumé : @Html.DisplayFor(model => model.LivreViewM[i].Synopsis)</li>
+                        </ul>
+                    }
+                    else
+                    {
+                        break;
+                    }
+                }           
+          </article>
+            @for(var i = 0; i < Model.LivreViewM.Count(); i++)
+            {
+                @if(Model.LivreViewM[i].CoupDeCoeur)
+                {
+                    <aside class="col-xl-3 bg-info d-flex flex-column justify-content-center align-items-center">
+                        <h4>Coup de <i class="fas fa-heart"></i> du mois</h4>
+                            <img class="img-fluid"
+                         src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )"
+                         alt="Couverture de Livres" />                     
+                    </aside>
+                    break;
+                }                
+            }        
+        </div>
+    </main>
+</section>

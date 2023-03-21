@@ -1,4 +1,4 @@
-﻿@model BibliAuth.Models.ViewModel
+﻿@model List<BibliAuth.Models.ViewModel>
 
 @{
     ViewData["Title"] = "Index";
@@ -9,21 +9,21 @@
 </p>
 
     <section class="row g-5">
-        @for (var i = 0; i < Model.LivreViewM.Count; i++)
+        @for (var i = 0; i < Model.Count(); i++)
         {
             <article class="col-xl-4 d-flex flex-row justify-content-center">
                 <div class="container_img_reservation">
-                    <a asp-action="Details" asp-route-id="@Model.LivreViewM[i].Id" class="col-xl-10">
-                        <img class="img-fluid" src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )" alt="Couverture de Livres" />
+                    <a asp-action="Details" asp-route-id="@Model[i].LivreViewM_Nolist.Id" class="coil²-xl-10">
+                        <img class="img-fluid" src="~/Upload/@Html.DisplayFor(modeL => modeL[i].LivreViewM_Nolist.CheminImage)" alt="Couverture de Livres" />
                     </a>
                     <button type="button" class="col-xl-12 btn btn-primary btn-lg mt-3">Réserver</button>
                 </div>
                 <ul class="col-xl-9">
-                    <li>@Model.LivreViewM[i].Titre</li>
-                <li>@Model.AuteurViewM[i].Prenom @Model.AuteurViewM[i].Nom</li>
-                <li>Genre :@Model.GenreViewM[i].Nom</li>
-                    <li>Date de parution : @Model.LivreViewM[i].Date_Parution</li>
-                    <li>@Model.LivreViewM[i].Synopsis</li>
+                    <li>@Model[i].LivreViewM_Nolist.Titre</li>
+                <li>@Model[i].AuteurViewM_Nolist.Prenom @Model[i].AuteurViewM_Nolist.Nom</li>
+                <li>Genre :@Model[i].GenreViewM_Nolist.Nom</li>
+                    <li>Date de parution : @Model[i].LivreViewM_Nolist.Date_Parution</li>
+                    <li>@Model[i].LivreViewM_Nolist.Synopsis</li>
                 </ul>
             </article>   
 

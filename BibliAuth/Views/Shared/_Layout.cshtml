@@ -27,14 +27,14 @@
                     <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
                         <ul class="navbar-nav flex-grow-0">
                             <li class="nav-item">
-                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Accueil</a>
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Home">Accueil</a>
                             </li>                           
                             @if (SignInManager.IsSignedIn(User))
                             {                    
                                 if(User.Identity.Name == "gregory.schoemaecker@adminbookin.fr")
                                 {
                                     <li class="nav-item">
-                                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Réservations en attente</a>
+                                        <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Home">Réservations en attente</a>
                                     </li>
                                     <li class="nav-item">
                                         <a class="nav-link text-dark" asp-area="" asp-controller="Livres" asp-action="Create">Ajouter <i class="fas fa-plus"></i></a>

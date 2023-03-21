@@ -49,20 +49,41 @@ namespace BibliAuth.Controllers
             // GET: Livres1
             public async Task<IActionResult> Index(long id)
             {
-            
-                _livreList = _livreRepository.FindAll();
-                _AuteurList = _auteurRepository.FindAll();
+            var livreList = _livreRepository.FindAll();
+            var auteurList = _auteurRepository.FindAll();
+            var genreList = _genreRepository.FindAll();
+            var q = (from pd in genreList
+                     join od in _context.Livre on pd.LivreId equals od.Id
+                     join ad in _context.Auteur on pd.LivreId equals ad.LivreId
+                     orderby od.Id
+                     select new ViewModel()
+                     {
+                         LivreViewM_Nolist = od,
+                         AuteurViewM_Nolist = ad,
+                         GenreViewM_Nolist = pd,
+                     }).ToList();
+            q.Reverse();
+            return View(q);
+        }
+        //Home pour la première page//
+        public IActionResult Home()
+        {
+            _livreList = _livreRepository.FindAll();
+            long firstId = _livreList[0].Id;
+            _AuteurList = _auteurRepository.FindAll();
             _genreList = _genreRepository.FindAll();
-          
+            var auteur = _auteurRepository.FindById(firstId);
+            var genre = _genreRepository.FindById(firstId);
             ViewModel viewModel = new ViewModel()
             {
                 AuteurViewM = _AuteurList,
                 LivreViewM = _livreList,
                 GenreViewM = _genreList,
-                LivreViewM_Nolist = _livreRepository.FindById(id),
-                };
-                return View(viewModel);
-            }    
+                AuteurViewM_Nolist = auteur,
+                GenreViewM_Nolist = genre
+            };
+            return View(viewModel);
+        }
         // GET: Récupère les livres recherchés
         public async Task<IActionResult> inputSearch(string value)
         {
@@ -287,6 +308,8 @@ namespace BibliAuth.Controllers
                     return NotFound();
                 }
 
+                livreServices.FavoriteBook(heart, livreList, livre.Id);           
+
                 viewModel = new ViewModel
                 {
                     AuteurViewM_Nolist = auteur,
@@ -294,8 +317,8 @@ namespace BibliAuth.Controllers
                     GenreViewM_Nolist = genre,
                     LivreViewM = livreList,
                 };
-
-                return View(viewModel);
+                _context.SaveChanges();                 
+                return RedirectToAction(nameof(Home));               
             }
             else
             {

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wL2IZswOsc/HZNeGflBSyTkM1h7Y3189cxDQH02q2RQ=",
+  "Hash": "VdG8Z7EsxbOowj7eDg02R0ex9z5AHAVhMffi9S6wJn0=",
   "Source": "BibliAuth",
   "BasePath": "_content/BibliAuth",
   "Mode": "Default",
@@ -10,7 +10,7 @@
     {
       "Name": "BibliAuth\\wwwroot",
       "Source": "BibliAuth",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "Pattern": "**"
     }
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "C:\\Users\\aurel\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\6.0.9\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BibliAuth.styles.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BibliAuth.styles.css",
       "SourceId": "BibliAuth",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "BibliAuth.styles.css",
       "AssetKind": "All",
@@ -1051,13 +1051,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BibliAuth.styles.css"
+      "OriginalItemSpec": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\bundle\\BibliAuth.styles.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BibliAuth.bundle.scp.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BibliAuth.bundle.scp.css",
       "SourceId": "BibliAuth",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "BibliAuth.bundle.scp.css",
       "AssetKind": "All",
@@ -1068,13 +1068,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BibliAuth.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\BibliAuth.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\css\\site.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\favicon.ico",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\js\\site.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2091,12 +2091,12 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\752994235104487.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\0232207809.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
-      "RelativePath": "Upload/752994235104487.jpg",
+      "RelativePath": "Upload/0232207809.jpg",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -2105,13 +2105,30 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\Upload\\752994235104487.jpg"
+      "OriginalItemSpec": "wwwroot\\Upload\\0232207809.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\752994230517357.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
+      "BasePath": "_content/BibliAuth",
+      "RelativePath": "Upload/752994230517357.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\752994230517357.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman.jpg",
+      "SourceId": "BibliAuth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman.jpg",
       "AssetKind": "All",
@@ -2125,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman2.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman2.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman2.jpg",
       "AssetKind": "All",
@@ -2142,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman2.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman230201917.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman230201917.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman230201917.jpg",
       "AssetKind": "All",
@@ -2159,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman230201917.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman230428328.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman230428328.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman230428328.jpg",
       "AssetKind": "All",
@@ -2176,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman230428328.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman230442848.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman230442848.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman230442848.jpg",
       "AssetKind": "All",
@@ -2193,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman230442848.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman230654219.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman230654219.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman230654219.jpg",
       "AssetKind": "All",
@@ -2210,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman230654219.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman230823516.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman230823516.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman230823516.jpg",
       "AssetKind": "All",
@@ -2227,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman230823516.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman230844524.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman230844524.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman230844524.jpg",
       "AssetKind": "All",
@@ -2244,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman230844524.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman231203466.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman231203466.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman231203466.jpg",
       "AssetKind": "All",
@@ -2261,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman231203466.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman231252039.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman231252039.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman231252039.jpg",
       "AssetKind": "All",
@@ -2278,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman231252039.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman232059093.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman232059093.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman232059093.jpg",
       "AssetKind": "All",
@@ -2295,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman232059093.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman232357873.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman232357873.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman232357873.jpg",
       "AssetKind": "All",
@@ -2312,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman232357873.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman232552434.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman232552434.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman232552434.jpg",
       "AssetKind": "All",
@@ -2329,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman232552434.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman232601677.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman232601677.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman232601677.jpg",
       "AssetKind": "All",
@@ -2346,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman232601677.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman232808458.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman232808458.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman232808458.jpg",
       "AssetKind": "All",
@@ -2363,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman232808458.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman233607528.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman233607528.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman233607528.jpg",
       "AssetKind": "All",
@@ -2380,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman233607528.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman234508897.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman234508897.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman234508897.jpg",
       "AssetKind": "All",
@@ -2397,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman234508897.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman234855256.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman234855256.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman234855256.jpg",
       "AssetKind": "All",
@@ -2414,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman234855256.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman235047774.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman235047774.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman235047774.jpg",
       "AssetKind": "All",
@@ -2431,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman235047774.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batman235925548.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman235925548.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batman235925548.jpg",
       "AssetKind": "All",
@@ -2448,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batman235925548.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batmanaa235812754.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batmanaa235812754.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batmanaa235812754.jpg",
       "AssetKind": "All",
@@ -2465,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batmanaa235812754.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\batmanError.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batmanError.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/batmanError.jpg",
       "AssetKind": "All",
@@ -2482,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\batmanError.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\dbgTome1.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\dbgTome1.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/dbgTome1.jpg",
       "AssetKind": "All",
@@ -2499,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\dbgTome1.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note.jpg",
       "AssetKind": "All",
@@ -2516,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note230715303.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note230715303.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note230715303.jpg",
       "AssetKind": "All",
@@ -2533,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note230715303.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note230920942.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note230920942.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note230920942.jpg",
       "AssetKind": "All",
@@ -2550,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note230920942.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note231033986.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note231033986.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note231033986.jpg",
       "AssetKind": "All",
@@ -2567,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note231033986.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note231159278.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note231159278.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note231159278.jpg",
       "AssetKind": "All",
@@ -2584,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note231159278.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note231402625.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note231402625.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note231402625.jpg",
       "AssetKind": "All",
@@ -2601,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note231402625.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note231526789.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note231526789.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note231526789.jpg",
       "AssetKind": "All",
@@ -2618,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note231526789.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note231746200.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note231746200.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note231746200.jpg",
       "AssetKind": "All",
@@ -2635,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note231746200.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note232929451.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note232929451.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note232929451.jpg",
       "AssetKind": "All",
@@ -2652,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note232929451.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note233117305.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note233117305.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note233117305.jpg",
       "AssetKind": "All",
@@ -2669,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note233117305.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note233238168.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note233238168.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note233238168.jpg",
       "AssetKind": "All",
@@ -2686,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note233238168.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\death_note234541258.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\death_note234541258.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/death_note234541258.jpg",
       "AssetKind": "All",
@@ -2703,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\death_note234541258.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\error.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\error.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/error.jpg",
       "AssetKind": "All",
@@ -2720,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\error.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\harry.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\harry.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/harry.jpg",
       "AssetKind": "All",
@@ -2737,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\harry.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\harry232432231.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\harry232432231.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/harry232432231.jpg",
       "AssetKind": "All",
@@ -2754,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\harry232432231.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\harry232606820.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\harry232606820.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/harry232606820.jpg",
       "AssetKind": "All",
@@ -2771,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\harry232606820.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\harry232730446.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\harry232730446.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/harry232730446.jpg",
       "AssetKind": "All",
@@ -2788,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\harry232730446.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\harry233721261.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\harry233721261.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/harry233721261.jpg",
       "AssetKind": "All",
@@ -2805,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\harry233721261.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\harry234012247.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\harry234012247.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/harry234012247.jpg",
       "AssetKind": "All",
@@ -2822,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\harry234012247.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\harry234049504.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\harry234049504.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/harry234049504.jpg",
       "AssetKind": "All",
@@ -2839,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\harry234049504.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\harry234602711.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\harry234602711.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/harry234602711.jpg",
       "AssetKind": "All",
@@ -2856,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\harry234602711.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\harry235441921.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\harry235441921.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/harry235441921.jpg",
       "AssetKind": "All",
@@ -2873,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\harry235441921.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\Institut.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\Institut.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/Institut.jpg",
       "AssetKind": "All",
@@ -2890,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Institut.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\Institut230449773.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\Institut230449773.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/Institut230449773.jpg",
       "AssetKind": "All",
@@ -2907,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\Institut230449773.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\OIP232357727.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\OIP232357727.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/OIP232357727.jpg",
       "AssetKind": "All",
@@ -2924,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\OIP232357727.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\u4230234182.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\u4230234182.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/u4230234182.jpg",
       "AssetKind": "All",
@@ -2941,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\u4230234182.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\zola.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\zola.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/zola.jpg",
       "AssetKind": "All",
@@ -2958,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\zola.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\zola230716678.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\zola230716678.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/zola230716678.jpg",
       "AssetKind": "All",
@@ -2975,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\zola230716678.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\zola231555770.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\zola231555770.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/zola231555770.jpg",
       "AssetKind": "All",
@@ -2992,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\zola231555770.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\zola231744741.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\zola231744741.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/zola231744741.jpg",
       "AssetKind": "All",
@@ -3009,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\Upload\\zola231744741.jpg"
     },
     {
-      "Identity": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\Upload\\zola233020268.jpg",
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\zola233020268.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
       "BasePath": "_content/BibliAuth",
       "RelativePath": "Upload/zola233020268.jpg",
       "AssetKind": "All",

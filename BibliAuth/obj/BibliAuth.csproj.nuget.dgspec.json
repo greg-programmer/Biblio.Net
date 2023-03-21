@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\BibliAuth.csproj": {}
+    "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\BibliAuth.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\BibliAuth.csproj": {
+    "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\BibliAuth.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\BibliAuth.csproj",
+        "projectUniqueName": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\BibliAuth.csproj",
         "projectName": "BibliAuth",
-        "projectPath": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\BibliAuth.csproj",
+        "projectPath": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\BibliAuth.csproj",
         "packagesPath": "C:\\Users\\aurel\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aurel\\source\\repos\\BibliRepriseDuProjet\\BibliAuth\\obj\\",
+        "outputPath": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
