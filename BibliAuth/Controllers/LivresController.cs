@@ -310,8 +310,12 @@ namespace BibliAuth.Controllers
 
                 livreServices.FavoriteBook(heart, livreList, livre.Id);
 
+                //J'ai mis à jour toutes les propriétés de l'objet livre //
                 livre.Titre = viewModel.LivreViewM_Nolist.Titre;
-                
+                livre.Date_Parution = viewModel.LivreViewM_Nolist.Date_Parution;
+                livre.CoupDeCoeur = heart;
+                livre.Synopsis = viewModel.LivreViewM_Nolist.Synopsis;
+                //Comme il peut y à avoir des exceptions pour la gestion du fichier image, je créé le bloc 'try'//
                 try
                 {
                     string wwwRootPath = Environment.CurrentDirectory;
@@ -332,10 +336,18 @@ namespace BibliAuth.Controllers
                 }
                 catch
                 {
-
+                    Console.WriteLine("L'image reste la même!"); 
                 }
-               
-                _context.SaveChanges();                 
+                //J'ai mis à jour toutes les propriétés de l'objet Auteur//
+                auteur.Nom = viewModel.AuteurViewM_Nolist.Nom;
+                auteur.Prenom = viewModel.AuteurViewM_Nolist.Prenom;
+                auteur.Date_Naissance = viewModel.AuteurViewM_Nolist.Date_Naissance;
+                auteur.Date_Mort = viewModel.AuteurViewM_Nolist.Date_Mort;
+                //J'ai mis à jour toutes les propriétés de l'objet Genre//
+                genre.Nom = viewModel.GenreViewM_Nolist.Nom;
+                //Enfin, je sauvegarde les changements dans la BDD//
+                _context.SaveChanges();        
+                //Je retourne à la page d'accueil//
                 return RedirectToAction(nameof(Home));               
             }
             else
