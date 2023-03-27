@@ -8,14 +8,18 @@
 
 <h4>Livre</h4>
 <hr />
-<div class="row">
+<div class="row mb-5">
     <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <form asp-action="Edit" enctype="multipart/form-data">
             <div class="form-group">
                 <label asp-for="LivreViewM_Nolist.Titre" class="control-label"></label>
                 <input asp-for="LivreViewM_Nolist.Titre" class="form-control" />
                 <span asp-validation-for="LivreViewM_Nolist.Titre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="AuteurViewM_Nolist.Nom" class="control-label"></label>
+                <input asp-for="AuteurViewM_Nolist.Nom" class="form-control" />
+                <span asp-validation-for="AuteurViewM_Nolist.Nom" class="text-danger"></span>
             </div>
             <div class="form-group">
                 <label asp-for="LivreViewM_Nolist.Date_Parution" class="control-label"></label>
@@ -23,21 +27,36 @@
                 <span asp-validation-for="LivreViewM_Nolist.Date_Parution" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="LivreViewM_Nolist.Synopsis" class="control-label"></label>
-                <input asp-for="LivreViewM_Nolist.Synopsis" class="form-control" />
-                <span asp-validation-for="LivreViewM_Nolist.Synopsis" class="text-danger"></span>
+                <label asp-for="AuteurViewM_Nolist.Prenom" class="control-label"></label>
+                <input asp-for="AuteurViewM_Nolist.Prenom" class="form-control" />
+                <span asp-validation-for="AuteurViewM_Nolist.Prenom" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="LivreViewM_Nolist.CheminImage" class="control-label"></label>
-                <input asp-for="LivreViewM_Nolist.CheminImage" class="form-control" />
-                <span asp-validation-for="LivreViewM_Nolist.CheminImage" class="text-danger"></span>
+                <label asp-for="LivreViewM_Nolist.Synopsis" class="control-label"></label>
+                <input type="text-area" asp-for="LivreViewM_Nolist.Synopsis" class="form-control" />
+                <span asp-validation-for="LivreViewM_Nolist.Synopsis" class="text-danger"></span>
             </div>
-            <div class="form-group form-check">
-                <label class="form-check-label">
-                    <input class="form-check-input" asp-for="LivreViewM_Nolist.CoupDeCoeur" name="heart" /> @Html.DisplayNameFor(model => model.LivreViewM_Nolist.CoupDeCoeur)
-                </label>
+
+            <div class="form-group">
+                <label class="col-form-label">Première de couverture</label>
+                <input asp-for="LivreViewM_Nolist.Image" class="form-control" />
+                <span asp-validation-for="LivreViewM_Nolist.Image" class="text-danger"></span>
             </div>
-            <input type="hidden" asp-for="LivreViewM_Nolist.Id" />
+<label for="pet-select">Choose a pet:</label>
+
+<select asp-for="GenreViewM_Nolist.Nom"> 
+     <option value="">--Please --</option>
+             
+                @for (var i = 0; i < Enum.GetNames(typeof(Livre.Type_Livre)).Length; i++){
+                    <option value="@Enum.GetName(typeof(Livre.Type_Livre),i)">@Enum.GetName(typeof(Livre.Type_Livre),i)</option>
+                    <span asp-validation-for="GenreViewM_Nolist.Nom" class="text-danger"></span>
+                }          
+</select>
+            <div class="form-group">
+                <input type="checkbox" asp-for="LivreViewM_Nolist.CoupDeCoeur" name="Heart">
+                <label class="col-form-label">Coup de coeur</label>
+                <span asp-validation-for="LivreViewM_Nolist.CoupDeCoeur" class="text-danger"></span>
+            </div>
             <div class="form-group">
                 <input type="submit" value="Save" class="btn btn-primary" />
             </div>

@@ -308,15 +308,33 @@ namespace BibliAuth.Controllers
                     return NotFound();
                 }
 
-                livreServices.FavoriteBook(heart, livreList, livre.Id);           
+                livreServices.FavoriteBook(heart, livreList, livre.Id);
 
-                viewModel = new ViewModel
+                livre.Titre = viewModel.LivreViewM_Nolist.Titre;
+                
+                try
                 {
-                    AuteurViewM_Nolist = auteur,
-                    LivreViewM_Nolist = livre,
-                    GenreViewM_Nolist = genre,
-                    LivreViewM = livreList,
-                };
+                    string wwwRootPath = Environment.CurrentDirectory;
+                    string fileName = Path.GetFileNameWithoutExtension(path: viewModel.LivreViewM_Nolist.Image.FileName);
+                    string extension = Path.GetExtension(viewModel.LivreViewM_Nolist.Image.FileName);
+                    long sizeFile = viewModel.LivreViewM_Nolist.Image.Length;
+                    Console.WriteLine(sizeFile);
+                    viewModel.LivreViewM_Nolist.CheminImage = fileName = fileName + DateTime.Now.ToString("yymmssfff") + extension;
+                    string path = Path.Combine(wwwRootPath, "wwwroot", "Upload", fileName);
+                    Console.WriteLine(sizeFile);
+
+                    using (var stream = new FileStream(path, FileMode.Create))
+                    {
+
+                       await viewModel.LivreViewM_Nolist.Image.CopyToAsync(stream);
+                    }
+                    livre.CheminImage = viewModel.LivreViewM_Nolist.CheminImage;
+                }
+                catch
+                {
+
+                }
+               
                 _context.SaveChanges();                 
                 return RedirectToAction(nameof(Home));               
             }
