@@ -275,7 +275,7 @@ namespace BibliAuth.Controllers
             }
             else
             {
-                return NotFound();
+                return PartialView("../Home/_LoginPartial.cshtml");
             }
             }
 

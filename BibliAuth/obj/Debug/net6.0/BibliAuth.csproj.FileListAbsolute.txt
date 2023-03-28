@@ -1368,3 +1368,4 @@ C:\Users\aurel\Source\Repos\Biblio.Netnew\BibliAuth\obj\Debug\net6.0\refint\Bibl
 C:\Users\aurel\Source\Repos\Biblio.Netnew\BibliAuth\obj\Debug\net6.0\BibliAuth.pdb
 C:\Users\aurel\Source\Repos\Biblio.Netnew\BibliAuth\obj\Debug\net6.0\BibliAuth.genruntimeconfig.cache
 C:\Users\aurel\Source\Repos\Biblio.Netnew\BibliAuth\obj\Debug\net6.0\ref\BibliAuth.dll
+C:\Users\aurel\source\repos\Biblio.Netnew\BibliAuth\bin\Debug\net6.0\System.Diagnostics.DiagnosticSource.dll
