@@ -17,22 +17,45 @@
                 {
                     if (i < Model.LivreViewM.Count())
                     {
-                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" asp-controller="Livres" asp-action="Details" asp-route-id="@Model.LivreViewM[i].Id">
+                        <a class="col-9 col-xl-12 col-md-3 col-sm-3" asp-controller="Livres" asp-action="Details" asp-route-id="@Model.LivreViewM[i].Id">
                             <img class="img-fluid"
                      src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )"
                      alt="Couverture de Livres" />
+
                         </a>
+                        <form>
+                            <button class="col-xl-12 btn btn-primary btn-lg"
+                        asp-controller="Livres" asp-action="Edit" asp-route-id="@Model.LivreViewM[i].Id" type="submit">
+                                Edit
+                            </button>
+                            <button class="col-xl-12 btn btn-primary btn-lg"
+                        asp-controller="Livres" asp-action="Delete" asp-route-id="@Model.LivreViewM[i].Id" type="submit">
+                                Delete
+                            </button>
+                        </form>
                     }
                 }
                 else if (Model.LivreViewM.Count() >= 4)
                 {
                     if (i < 4)
                     {
-                        <a class="col-9 col-xl-2 col-md-3 col-sm-3" asp-controller="Livres" asp-action="Details" asp-route-id="@Model.LivreViewM[i].Id">
-                            <img class="img-fluid"
-                     src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )"
-                     alt="Couverture de Livres" />
-                        </a>
+                        <div class="card">
+                            <a class="col-9 col-xl-12 col-md-3 col-sm-3" asp-controller="Livres" asp-action="Details" asp-route-id="@Model.LivreViewM[i].Id">
+                                <img class="img-fluid"
+                         src="~/Upload/@Html.DisplayFor(modeL => modeL.LivreViewM[i].CheminImage )"
+                         alt="Couverture de Livres" />
+                            </a>
+                            <form class="bloc-button">
+                                <button class="col-xl-6 border-0"
+                            asp-controller="Livres" asp-action="Edit" asp-route-id="@Model.LivreViewM[i].Id" type="submit">
+                                    Edit
+                                </button>
+                                <button class="col-xl-6 border-0"
+                            asp-controller="Livres" asp-action="Delete" asp-route-id="@Model.LivreViewM[i].Id" type="submit">
+                                    Delete
+                                </button>
+                            </form>
+                        </div>
                     }
                     else
                     {

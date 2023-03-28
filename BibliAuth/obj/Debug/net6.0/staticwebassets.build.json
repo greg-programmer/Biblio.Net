@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "GLcWVmWbh1JtrfwH1NpFHdnG8cS6fdS7N0GDFldvssk=",
+  "Hash": "j4JPyNcBK6L5v4QXJav6hrAbnmfRxxXuUG2HBMsCOLg=",
   "Source": "BibliAuth",
   "BasePath": "_content/BibliAuth",
   "Mode": "Default",
@@ -2312,6 +2312,40 @@
       "OriginalItemSpec": "wwwroot\\Upload\\752994230517357.jpg"
     },
     {
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\752994231929154.jpg",
+      "SourceId": "BibliAuth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
+      "BasePath": "_content/BibliAuth",
+      "RelativePath": "Upload/752994231929154.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\752994231929154.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\752994232037484.jpg",
+      "SourceId": "BibliAuth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
+      "BasePath": "_content/BibliAuth",
+      "RelativePath": "Upload/752994232037484.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\752994232037484.jpg"
+    },
+    {
       "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\batman.jpg",
       "SourceId": "BibliAuth",
       "SourceType": "Discovered",
@@ -3177,6 +3211,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Upload\\u4231747797.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\u4232012965.jpg",
+      "SourceId": "BibliAuth",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\",
+      "BasePath": "_content/BibliAuth",
+      "RelativePath": "Upload/u4232012965.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Upload\\u4232012965.jpg"
     },
     {
       "Identity": "C:\\Users\\aurel\\source\\repos\\Biblio.Netnew\\BibliAuth\\wwwroot\\Upload\\u4233824712.jpg",

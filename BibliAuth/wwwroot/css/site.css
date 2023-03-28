@@ -59,3 +59,19 @@ ul {
     overflow-wrap: break-word;
     list-style:none;
 }
+.card {
+    width: 200px;
+    height: 320px;
+    display: flex;
+    padding: 0;
+    border-radius: 10px;
+    overflow: hidden;  
+    box-shadow: 10px 5px 5px grey;
+}
+.bloc-button
+{
+display:flex;
+position:absolute;
+bottom:0;
+width:100%;
+}
